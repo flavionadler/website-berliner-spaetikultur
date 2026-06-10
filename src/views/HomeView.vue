@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ChapterCard from '../components/ChapterCard.vue';
+import ChapterCard from '@/components/ChapterCard.vue';
 import HeroSection from '@/components/HeroSection.vue';
 import {RouteNames} from '@/constants/enums.ts';
 

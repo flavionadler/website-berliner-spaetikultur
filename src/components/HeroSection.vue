@@ -1,7 +1,7 @@
 <template>
 	<section class="relative h-screen overflow-hidden">
 		<img
-			src="../assets/images/spaeti.jpeg"
+			src="@/assets/images/spaeti.jpeg"
 			alt="Berliner Späti"
 			class="absolute inset-0 h-full w-full object-cover" />
 
