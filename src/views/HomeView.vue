@@ -30,7 +30,10 @@ const chapters = [
 </script>
 
 <template>
-	<HeroSection/>
+	<HeroSection image="@/assets/images/hero/spaeti.jpg" eyebrow="IDPA-Projekt" title="Spätis in Berlin"
+	             subtitle="Ein Stück Alltagskultur"
+	             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+	             scroll-target="#chapter-overview"/>
 	<div class="flex flex-col gap-12 p-6" id="chapter-overview">
 		<ChapterCard
 			v-for="(chapter, index) in chapters"
