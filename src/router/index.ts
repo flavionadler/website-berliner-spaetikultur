@@ -1,10 +1,10 @@
+import {RouteNames} from '@/constants/enums.ts';
 import {createRouter, createWebHistory} from 'vue-router';
-import {RouteNames} from '../constants/enums.ts';
-import HistoryDetailView from '../views/chapters/HistoryDetailView.vue';
-import HomeView from '../views/HomeView.vue';
-import CriticismDetailView from '../views/chapters/CriticismDetailView.vue';
-import CultureDetailView from '../views/chapters/CultureDetailView.vue';
-import NotFound from '../views/NotFound.vue';
+import HomeView from '@/views/HomeView.vue';
+import HistoryDetailView from '@/views/chapters/HistoryDetailView.vue';
+import CultureDetailView from '@/views/chapters/CultureDetailView.vue';
+import CriticismDetailView from '@/views/chapters/CriticismDetailView.vue';
+import NotFound from '@/views/NotFound.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
