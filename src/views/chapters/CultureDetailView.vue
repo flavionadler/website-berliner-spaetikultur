@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import HeroSection from '@/components/HeroSection.vue';
-import heroImg from '@/assets/images/hero/spaeti.jpeg'; /* TODO: Other hero image */
+import heroImg from '@/assets/images/hero/home.jpeg'; /* TODO: Other hero image */
 </script>
 
 <template>
