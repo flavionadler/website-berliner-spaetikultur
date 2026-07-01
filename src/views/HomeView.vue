@@ -3,6 +3,7 @@ import ChapterCard from '@/components/ChapterCard.vue';
 import HeroSection from '@/components/HeroSection.vue';
 import {RouteNames} from '@/constants/enums.ts';
 
+import heroImg from '@/assets/images/hero/spaeti.jpeg'
 import historyImg from '@/assets/images/placeholder.png'
 import cultureImg from '@/assets/images/placeholder.png'
 import criticismImg from '@/assets/images/placeholder.png'
@@ -30,7 +31,7 @@ const chapters = [
 </script>
 
 <template>
-	<HeroSection image="@/assets/images/hero/spaeti.jpg" eyebrow="IDPA-Projekt" title="Spätis in Berlin"
+	<HeroSection :image="heroImg" eyebrow="IDPA-Projekt" title="Spätis in Berlin"
 	             subtitle="Ein Stück Alltagskultur"
 	             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
 	             scroll-target="#chapter-overview"/>
