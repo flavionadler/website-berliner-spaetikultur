@@ -2,7 +2,6 @@
 
 import HeroSection from '@/components/HeroSection.vue';
 import heroImg from '@/assets/images/hero/spaeti.jpeg'; /* TODO: Other hero image */
-
 </script>
 
 <template>
