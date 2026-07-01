@@ -1,9 +1,12 @@
 <script setup lang="ts">
 
+import HeroSection from '@/components/HeroSection.vue';
+import heroImg from '@/assets/images/hero/spaeti.jpeg' /* TODO: Other hero image */
 </script>
 
 <template>
-	<h1>TBD: CriticismDetailView</h1>
+	<HeroSection :image="heroImg" title="Kritik" eyebrow="Von Lärm bis hinzu Gewalt"
+	             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam" />
 </template>
 
 <style scoped>
