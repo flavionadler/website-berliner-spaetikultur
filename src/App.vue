@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Navbar from '@/components/layout/Navbar.vue';
 </script>
 
 <template>
@@ -16,7 +17,11 @@
 		</div>
 
 		<div class="relative z-10 min-h-screen flex flex-col">
-			<router-view />
+			<Navbar />
+
+			<main class="flex-1">
+				<router-view />
+			</main>
 		</div>
 
 	</div>
