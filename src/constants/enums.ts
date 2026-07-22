@@ -4,6 +4,9 @@ export enum RouteNames {
   history = 'Geschichte',
   culture = 'Kultur',
   criticism = 'Kritik',
+  imprint = 'Impressum',
+  privacy = 'Datenschutz',
+  sources = 'Quellen',
 
   notFound = 'NotFound'
 }

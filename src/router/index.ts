@@ -6,6 +6,9 @@ import CultureDetailView from '@/views/chapters/CultureDetailView.vue';
 import CriticismDetailView from '@/views/chapters/CriticismDetailView.vue';
 import NotFound from '@/views/NotFound.vue';
 import BusinessModelDetailView from '@/views/chapters/BusinessModelDetailView.vue';
+import Imprint from '@/views/legal/Imprint.vue';
+import Privacy from '@/views/legal/Privacy.vue';
+import Sources from '@/views/legal/Sources.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -48,6 +51,30 @@ const router = createRouter({
       component: CriticismDetailView,
       meta: {
         title: 'Kritik'
+      }
+    },
+    {
+      path: '/imprint',
+      name: RouteNames.imprint,
+      component: Imprint,
+      meta: {
+        title: 'Impressum'
+      }
+    },
+    {
+      path: '/privacy',
+      name: RouteNames.privacy,
+      component: Privacy,
+      meta: {
+        title: 'Datenschutz'
+      }
+    },
+    {
+      path: '/sources',
+      name: RouteNames.sources,
+      component: Sources,
+      meta: {
+        title: 'Quellen'
       }
     },
     {
