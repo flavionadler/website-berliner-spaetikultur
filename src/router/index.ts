@@ -5,6 +5,7 @@ import HistoryDetailView from '@/views/chapters/HistoryDetailView.vue';
 import CultureDetailView from '@/views/chapters/CultureDetailView.vue';
 import CriticismDetailView from '@/views/chapters/CriticismDetailView.vue';
 import NotFound from '@/views/NotFound.vue';
+import BusinessModelDetailView from '@/views/chapters/BusinessModelDetailView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,6 +16,14 @@ const router = createRouter({
       component: HomeView,
       meta: {
         title: 'Home'
+      }
+    },
+    {
+      path: '/business-model',
+      name: RouteNames.businessModel,
+      component: BusinessModelDetailView,
+      meta: {
+        title: 'Geschäftsmodell'
       }
     },
     {
