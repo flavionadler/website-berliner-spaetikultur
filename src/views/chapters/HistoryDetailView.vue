@@ -9,6 +9,31 @@ import SplitSection from '@/components/SplitSection.vue';
 import YoutubeVideo from '@/components/YoutubeVideo.vue';
 import QuoteBlock from '@/components/QuoteBlock.vue';
 import InfoBox from '@/components/InfoBox.vue';
+import Timeline from '@/components/Timeline.vue';
+
+const timeline = [
+	{
+		year: '1949',
+		title: 'Gründung der DDR',
+		text: 'Nach der Teilung Deutschlands entstand die Deutsche Demokratische Republik.'
+	},
+	{
+		year: '1950er',
+		title: 'Erste Spätverkaufsstellen',
+		text: 'Um Arbeiter auch nach Feierabend versorgen zu können, entstanden die ersten Spätverkaufsstellen. -- Man könnte auch Bilder einfügen!',
+		image: heroImg
+	},
+	{
+		year: '1989',
+		title: 'Mauerfall',
+		text: 'Mit dem Fall der Berliner Mauer änderte sich das wirtschaftliche Umfeld grundlegend.'
+	},
+	{
+		year: 'Heute',
+		title: 'Spätis als Kulturgut',
+		text: 'Spätis sind heute fester Bestandteil des Berliner Stadtbildes.'
+	}
+]
 </script>
 
 <template>
@@ -87,7 +112,7 @@ import InfoBox from '@/components/InfoBox.vue';
 		</ContentSection>
 
 		<ContentSection>
-			<p>TODO: Zeitstrahl</p>
+			<Timeline :items="timeline"/>
 		</ContentSection>
 
 		<ContentSection title="Die Zeit nach der Wiedervereinigung">
