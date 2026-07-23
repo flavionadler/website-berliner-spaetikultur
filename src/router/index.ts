@@ -109,7 +109,7 @@ const router = createRouter({
 
 router.beforeEach(async (to, _from, next) => {
   if (to.meta && to.meta.title !== undefined) {
-    document.title = to.meta.title?.toString() + ' | Spätikulur Berlin';
+    document.title = to.meta.title?.toString() + ' | Spätikultur Berlin';
   }
   next();
 });
