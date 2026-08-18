@@ -27,7 +27,7 @@ import heroImg from '@/assets/images/hero/home.jpeg'
 
 		<ContentSection title="Interviews">
 			<ul class="list-disc pl-6 space-y-2">
-				<li>Interview mit Herr Dr. Wolle, Historiker des DDR Museums</li>
+				<li>Video-Interview mit Herr Dr. Wolle, Historiker des DDR Museums</li>
 				<li>Video-Interview mit Kaan Mirzanli, Besitzer vom Späti "Spätify" in Kreuzberg</li>
 				<li>Interview mit einem Späti-Verkäufer in Alt-Moabit</li>
 				<li>Gespräch mit Späti-Verkäufer in Prenzlauer Berg</li>
