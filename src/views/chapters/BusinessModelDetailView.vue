@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HeroSection from '@/components/HeroSection.vue';
-import heroImg from '@/assets/images/hero/business-model.jpeg'; /* TODO: Other hero image */
+import heroImg from '@/assets/images/hero/business-model.jpeg';
 import PageContainer from '@/components/PageContainer.vue';
 import QuoteBlock from '@/components/QuoteBlock.vue';
 import ContentSection from '@/components/ContentSection.vue';

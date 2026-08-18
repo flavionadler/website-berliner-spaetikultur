@@ -4,35 +4,35 @@ import HeroSection from '@/components/HeroSection.vue';
 import {RouteNames} from '@/constants/enums.ts';
 
 import heroImg from '@/assets/images/hero/home.jpeg'
-import businessModelImg from '@/assets/images/placeholder.png'
-import historyImg from '@/assets/images/placeholder.png'
-import cultureImg from '@/assets/images/placeholder.png'
-import criticismImg from '@/assets/images/placeholder.png'
+import businessModelImg from '@/assets/images/hero/business-model.jpeg'
+import historyImg from '@/assets/images/hero/history.jpg'
+import cultureImg from '@/assets/images/hero/culture.jpeg'
+import criticismImg from '@/assets/images/hero/criticism.jpg'
 
 const chapters = [
 	{
 		title: 'Geschäftsmodell',
 		description: 'Wie funktionieren Spätis? Wie rentabel ist dieses Geschäft? Diese Fragen und alles zum ' +
 			'Geschäftsmodell der Spätis, werden in diesem Kapitel beantwortet.',
-		image: businessModelImg, /* TODO: Replace placeholder with suitable image - something about money? */
+		image: businessModelImg,
 		to: RouteNames.businessModel,
 	},
 	{
 		title: 'Geschichte',
 		description: 'Von den DDR-Spätverkaufsstellen bis zur heutigen Berliner Späti-Kultur.',
-		image: historyImg, /* TODO: Replace placeholder with suitable image - DDR related? Documents from Dr. Wolle? */
+		image: historyImg,
 		to: RouteNames.history,
 	},
 	{
 		title: 'Kultur',
 		description: 'Warum Spätis weit mehr als gewöhnliche Kioske sind.',
-		image: cultureImg, /* TODO: Replace placeholder with suitable image - benches/people in front of späti? */
+		image: cultureImg,
 		to: RouteNames.culture,
 	},
 	{
 		title: 'Kritik',
 		description: 'Zwischen Nachbarschaft, Lärm und gesetzlichen Vorschriften.',
-		image: criticismImg, /* TODO: Replace placeholder with suitable image - police car passing by? */
+		image: criticismImg,
 		to: RouteNames.criticism,
 	},
 ]
