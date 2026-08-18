@@ -48,6 +48,13 @@ import heroImg from '@/assets/images/hero/home.jpeg'
 			</p>
 		</ContentSection>
 
+		<ContentSection title="Feldforschung / Eigene Erfahrungen">
+			<p>
+				Auf unserer Reise nach Berlin, haben wir natürlich viele eigene Erfahrungen gesammelt und viele spannende
+				Dinge selbst herausgefunden. Diese Erkenntnisse geben wir selbstverständlich auch in unseren Texten wieder.
+			</p>
+		</ContentSection>
+
 		<ContentSection title="Vollständiges Quellenverzeichnis">
 			<p>
 				Die auf dieser Website aufgeführten Quellen dienen lediglich als Übersicht. Das vollständige und
