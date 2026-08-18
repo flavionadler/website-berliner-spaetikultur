@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-defineProps<{
+const props = defineProps<{
 	image: string
 	eyebrow?: string
 	title: string
@@ -8,6 +8,19 @@ defineProps<{
 	description?: string
 	scrollTarget?: string
 }>()
+
+function scrollToTarget(): void {
+	if (!props.scrollTarget) {
+		return
+	}
+
+	const element = document.querySelector(props.scrollTarget)
+
+	element?.scrollIntoView({
+		behavior: 'smooth',
+		block: 'start',
+	})
+}
 </script>
 
 <template>
@@ -19,11 +32,11 @@ defineProps<{
 
 		<div class="absolute inset-0 bg-black/60"/>
 		<div class="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
-			<p v-if="eyebrow" class="mb-4 uppercase tracking-[0.4em] text-yellow-400">
+			<p v-if="eyebrow" class="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-yellow-400 sm:text-sm sm:tracking-[0.3em] md:text-base md:tracking-[0.4em]">
 				{{ eyebrow }}
 			</p>
 
-			<h1 class="max-w-5xl text-5xl font-bold text-white md:text-8xl">
+			<h1 class="max-w-5xl text-4xl font-bold text-white sm:text-5xl md:text-8xl">
 				{{ title }}
 			</h1>
 
@@ -35,9 +48,13 @@ defineProps<{
 				{{ description }}
 			</p>
 
-			<a v-if="scrollTarget" :href="scrollTarget" class="mt-16 font-extrabold animate-bounce text-zinc-400 text-2xl">
+			<button
+				v-if="scrollTarget"
+				type="button"
+				@click="scrollToTarget"
+				class="mt-16 flex h-16 w-16 items-center justify-center text-5xl font-black text-zinc-300 animate-bounce transition hover:text-yellow-400">
 				↓
-			</a>
+			</button>
 		</div>
 	</section>
 </template>
