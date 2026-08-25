@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
 
-	<div class="overflow-hidden rounded-2xl shadow-xl">
+	<div class="w-full overflow-hidden rounded-2xl shadow-xl">
 		<iframe class="aspect-video w-full" :src="`https://www.youtube.com/embed/${videoId}`" allowfullscreen />
 	</div>
 

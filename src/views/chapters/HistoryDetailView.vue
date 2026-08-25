@@ -9,6 +9,7 @@ import YoutubeVideo from '@/components/YoutubeVideo.vue';
 import QuoteBlock from '@/components/QuoteBlock.vue';
 import InfoBox from '@/components/InfoBox.vue';
 import Timeline from '@/components/Timeline.vue';
+import FlipCard from '@/components/FlipCard.vue';
 
 const timeline = [
 	{
@@ -41,7 +42,7 @@ const timeline = [
 
 <template>
 	<HeroSection :image="heroImg" title="Geschichte" eyebrow="Ursürunge in der DDR"
-	             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+	             description="Die Geschichte des Berliner Spätis beginnt lange vor dem heutigen Kiezladen. Von den staatlichen Spätverkaufsstellen der DDR bis zum Treffpunkt der Berliner Nacht- und Kiezkultur hat sich seine Funktion grundlegend gewandelt."
 	             scroll-target="#history-content"/>
 	<PageContainer id="history-content">
 
@@ -62,7 +63,22 @@ const timeline = [
 			</p>
 			<SplitSection>
 				<template #left>
-					<YoutubeVideo video-id="67TTe-UwVdc"/>
+					<FlipCard>
+						<template #front>
+							<div class="flex flex-col items-center gap-4">
+								<h2 class="text-3xl font-bold tracking-tight text-white">
+									Was für eine Frage?
+								</h2>
+
+								<p class="text-lg text-zinc-400">
+									Beantwortet von Herrn Dr. Stefan Wolle
+								</p>
+							</div>
+						</template>
+						<template #back>
+							<YoutubeVideo video-id="67TTe-UwVdc"/>
+						</template>
+					</FlipCard>
 				</template>
 				<template #right>
 					<p>
@@ -163,8 +179,7 @@ const timeline = [
 			<QuoteBlock
 				quote="Vor knapp 20 Jahren waren es noch die Internetcafés und dann hat sich das so entwickelt."
 				author="Kaan Mirzanli"
-				source="Besitzer vom Späti 'Spätify' in Kreuzberg"
-			</QuoteBlock>
+				source="Besitzer vom Späti 'Spätify' in Kreuzberg" />
 			<p>
 				Einige dieser Standorte wurden deshalb in Spätis umgewandelt und übernahmen erneut eine soziale Funktion
 				im Quartier – diesmal jedoch als unkomplizierte Begegnungsorte für Nachbarn, Stammkunden und Besucher.
