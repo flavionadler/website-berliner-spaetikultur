@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Navbar from '@/components/layout/Navbar.vue';
 import Footer from '@/components/layout/Footer.vue';
+import { AnimatePresence, motion } from 'motion-v'
 </script>
 
 <template>
@@ -21,7 +22,21 @@ import Footer from '@/components/layout/Footer.vue';
 			<Navbar />
 
 			<main class="flex-1">
-				<router-view />
+				<router-view v-slot="{ Component, route }">
+					<AnimatePresence mode="wait">
+						<motion.div
+							:key="route.fullPath"
+							:initial="{ opacity: 0, y: 25 }"
+							:animate="{ opacity: 1, y: 0 }"
+							:exit="{ opacity: 0, y: -25 }"
+							:transition="{
+								duration: 0.4,
+								ease: 'easeInOut'
+							}">
+							<component :is="Component" />
+						</motion.div>
+					</AnimatePresence>
+				</router-view>
 			</main>
 
 			<Footer/>

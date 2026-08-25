@@ -27,7 +27,7 @@ import heroImg from '@/assets/images/hero/home.jpeg'
 
 		<ContentSection title="Interviews">
 			<ul class="list-disc pl-6 space-y-2">
-				<li>Interview mit Herr Dr. Wolle, Historiker des DDR Museums</li>
+				<li>Video-Interview mit Herr Dr. Wolle, Historiker des DDR Museums</li>
 				<li>Video-Interview mit Kaan Mirzanli, Besitzer vom Späti "Spätify" in Kreuzberg</li>
 				<li>Interview mit einem Späti-Verkäufer in Alt-Moabit</li>
 				<li>Gespräch mit Späti-Verkäufer in Prenzlauer Berg</li>
@@ -45,6 +45,13 @@ import heroImg from '@/assets/images/hero/home.jpeg'
 			<p>
 				Die eingebundenen Videos stammen aus selbst durchgeführten Interviews und Aufnahmen im Rahmen dieses
 				Projekts.
+			</p>
+		</ContentSection>
+
+		<ContentSection title="Feldforschung / Eigene Erfahrungen">
+			<p>
+				Auf unserer Reise nach Berlin, haben wir natürlich viele eigene Erfahrungen gesammelt und viele spannende
+				Dinge selbst herausgefunden. Diese Erkenntnisse geben wir selbstverständlich auch in unseren Texten wieder.
 			</p>
 		</ContentSection>
 
