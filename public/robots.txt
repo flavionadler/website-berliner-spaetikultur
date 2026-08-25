@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spaetikultur-berlin.ch/sitemap.xml
