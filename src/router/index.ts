@@ -9,6 +9,7 @@ import BusinessModelDetailView from '@/views/chapters/BusinessModelDetailView.vu
 import Imprint from '@/views/legal/Imprint.vue';
 import Privacy from '@/views/legal/Privacy.vue';
 import Sources from '@/views/legal/Sources.vue';
+import ComparisonSwitzerlandDetailView from '@/views/chapters/ComparisonSwitzerlandDetailView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -42,6 +43,14 @@ const router = createRouter({
       component: BusinessModelDetailView,
       meta: {
         title: 'Geschäftsmodell'
+      }
+    },
+    {
+      path: '/switzerland',
+      name: RouteNames.switzerland,
+      component: ComparisonSwitzerlandDetailView,
+      meta: {
+        title: 'Vergleich zur Schweiz'
       }
     },
     {
