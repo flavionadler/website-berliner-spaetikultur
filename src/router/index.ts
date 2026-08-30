@@ -9,6 +9,7 @@ import BusinessModelDetailView from '@/views/chapters/BusinessModelDetailView.vu
 import Imprint from '@/views/legal/Imprint.vue';
 import Privacy from '@/views/legal/Privacy.vue';
 import Sources from '@/views/legal/Sources.vue';
+import AboutView from '@/views/AboutView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -66,6 +67,14 @@ const router = createRouter({
       component: CriticismDetailView,
       meta: {
         title: 'Kritik'
+      }
+    },
+    {
+      path: 'about',
+      name: RouteNames.about,
+      component: AboutView,
+      meta: {
+        title: 'Über das Projekt'
       }
     },
     {
