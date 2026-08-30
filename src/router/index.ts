@@ -70,7 +70,7 @@ const router = createRouter({
       }
     },
     {
-      path: 'about',
+      path: '/about',
       name: RouteNames.about,
       component: AboutView,
       meta: {
