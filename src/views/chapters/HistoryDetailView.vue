@@ -75,7 +75,7 @@ const timeline = [
 						<template #front>
 							<div class="flex flex-col items-center gap-4">
 								<h2 class="text-3xl font-bold tracking-tight text-white">
-									Was für eine Frage?
+									Wie entstanden die Spätverkaufsstellen?
 								</h2>
 
 								<p class="text-lg text-zinc-400">
@@ -161,11 +161,33 @@ const timeline = [
 				organisierten Verkaufsstellen verschwanden nach und nach oder wurden privatisiert. Gleichzeitig
 				entstanden zahlreiche neue Spätis, die sich stärker an den Bedürfnissen ihrer Kundschaft orientierten.
 			</p>
-			<p>
-				Das Sortiment wurde deutlich vielfältiger, und viele Betreiber verlängerten ihre Öffnungszeiten. Aus den
-				ehemaligen Versorgungsstellen entwickelten sich kleine, privat geführte Geschäfte, die Getränke, Snacks,
-				Tabakwaren und viele weitere Produkte anboten.
-			</p>
+			<SplitSection>
+				<template #left>
+					<p>
+						Das Sortiment wurde deutlich vielfältiger, und viele Betreiber verlängerten ihre Öffnungszeiten. Aus den
+						ehemaligen Versorgungsstellen entwickelten sich kleine, privat geführte Geschäfte, die Getränke, Snacks,
+						Tabakwaren und viele weitere Produkte anboten.
+					</p>
+				</template>
+				<template #right>
+					<FlipCard>
+						<template #front>
+							<div class="flex flex-col items-center gap-4">
+								<h2 class="text-3xl font-bold tracking-tight text-white">
+									Was passierte nach der Wiedervereinigung mit den Spätverkaufsstellen?
+								</h2>
+
+								<p class="text-lg text-zinc-400">
+									Beantwortet von Herrn Dr. Stefan Wolle
+								</p>
+							</div>
+						</template>
+						<template #back>
+							<YoutubeVideo video-id="-QOQj6dusIA"/>
+						</template>
+					</FlipCard>
+				</template>
+			</SplitSection>
 			<p>
 				In dieser Zeit gewann auch die soziale Funktion der Spätis zunehmend an Bedeutung. Während sie
 				ursprünglich vor allem der Versorgung dienten, entwickelten sie sich immer stärker zu Orten, an denen
