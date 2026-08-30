@@ -7,6 +7,7 @@ import ContentSection from '@/components/ContentSection.vue';
 import SplitSection from '@/components/SplitSection.vue';
 import YoutubeVideo from '@/components/YoutubeVideo.vue';
 import InfoBox from '@/components/InfoBox.vue';
+import {RouteNames} from '@/constants/enums.ts';
 </script>
 
 <template>
@@ -164,6 +165,15 @@ import InfoBox from '@/components/InfoBox.vue';
 					<YoutubeVideo video-id="QS_KHU5yzW4"/>
 				</template>
 			</SplitSection>
+		</ContentSection>
+
+		<ContentSection title="Fazit">
+			<p>
+				Ob für ein schnelles Getränk, den Einkauf spät in der Nacht oder ein kurzes Gespräch mit der
+				Nachbarschaft: Der Späti ist in Berlin längst mehr als nur ein Laden. Doch gibt es ein vergleichbares
+				Konzept auch in der Schweiz? Erfahren Sie in diesem Kapitel mehr dazu:
+				<RouterLink class="text-yellow-500" :to="{ name: RouteNames.switzerland }">Vergleich zur Schweiz</RouterLink>
+			</p>
 		</ContentSection>
 	</PageContainer>
 </template>

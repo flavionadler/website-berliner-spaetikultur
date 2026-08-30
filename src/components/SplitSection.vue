@@ -11,9 +11,12 @@ defineProps<{
 			'grid grid-cols-1 lg:grid-cols-2 gap-10',
 			align === 'center' ? 'items-center' : 'items-start'
 		]">
+		<div>
 			<slot name="left" />
-
+		</div>
+		<div>
 			<slot name="right" />
+		</div>
 	</div>
 </template>
 

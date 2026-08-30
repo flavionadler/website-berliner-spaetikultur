@@ -143,7 +143,7 @@ const timeline = [
 			</SplitSection>
 		</ContentSection>
 
-		<ContentSection>
+		<ContentSection title="Die Entwicklung der Spätverkaufsstellen">
 			<Timeline :items="timeline"/>
 		</ContentSection>
 
