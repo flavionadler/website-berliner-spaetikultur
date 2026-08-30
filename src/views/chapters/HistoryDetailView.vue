@@ -2,6 +2,10 @@
 
 import HeroSection from '@/components/HeroSection.vue';
 import heroImg from '@/assets/images/hero/history.jpg'; /* TODO: Other hero image */
+import firstSpaeti from '@/assets/images/chapters/history/firstSpaeti.jpg';
+import spaetisBeginning from '@/assets/images/chapters/history/spaetisBeginning.jpg';
+import reunification from '@/assets/images/chapters/history/reunification.jpg';
+import internetcafe from '@/assets/images/chapters/history/internetcafe.jpg';
 import PageContainer from '@/components/PageContainer.vue';
 import ContentSection from '@/components/ContentSection.vue';
 import SplitSection from '@/components/SplitSection.vue';
@@ -15,22 +19,26 @@ const timeline = [
 	{
 		year: '1950er–1960er Jahre',
 		title: 'Die Anfänge',
-		text: 'Entstehung der ersten Spätverkaufsstellen in der DDR zur Verbesserung der Versorgung ausserhalb der regulären Ladenöffnungszeiten.'
+		text: 'Entstehung der ersten Spätverkaufsstellen in der DDR zur Verbesserung der Versorgung ausserhalb der regulären Ladenöffnungszeiten.',
+		image: firstSpaeti
 	},
 	{
 		year: '1960er–1980er Jahre',
 		title: 'Versorgung im DDR-Alltag',
 		text: 'Früh- und Spätverkaufsstellen werden insbesondere in grösseren Städten etabliert; Berlin nimmt aufgrund seiner besonderen Stellung eine wichtige Rolle ein.',
+		image: spaetisBeginning
 	},
 	{
 		year: '1990',
 		title: 'Der grosse Umbruch',
-		text: 'Deutsche Wiedervereinigung und Ende des staatlich organisierten Einzelhandelssystems.'
+		text: 'Deutsche Wiedervereinigung und Ende des staatlich organisierten Einzelhandelssystems.',
+		image: reunification
 	},
 	{
 		year: '1990er Jahre',
 		title: 'Erste moderne Spätis',
-		text: 'Private Betreiber übernehmen zahlreiche ehemalige Spätverkaufsstellen und entwickeln sie zu den heutigen Spätis weiter.'
+		text: 'Private Betreiber übernehmen zahlreiche ehemalige Spätverkaufsstellen und entwickeln sie zu den heutigen Spätis weiter.',
+		image: internetcafe
 	},
 	{
 		year: '2000er bis heute',
