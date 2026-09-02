@@ -89,7 +89,7 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
 				<template #right>
 					<QuoteBlock
 						quote="Wer nachts einsam ist kann sich da ein bisschen hinsetzen das ist ja die soziale Funktion das ist eigentlich sehr gut, dass es sowas gibt."
-						author="Interviewperson – Platzhalter" />
+						author="Nathan? --> noch prüfen!!!" />
 				</template>
 			</SplitSection>
 			<p>
