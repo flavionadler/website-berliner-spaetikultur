@@ -14,13 +14,25 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
 	<PageContainer id="culture-content">
 		<ContentSection>
 			<p>
-				Textblock: soziale Funktion der Spätis
+        Neben ihrer Funktion als Verkaufsstelle erfüllen Spätis in Berlin eine bedeutende soziale und kulturelle Rolle.
+        Sie dienen als niedrigschwellige Begegnungsorte, an denen Menschen unterschiedlicher Altersgruppen,
+        sozialer Hintergründe und kultureller Herkunft miteinander in Kontakt treten können.
+        Während unserer Recherche konnten wir zahlreiche spontane Gespräche zwischen Kundinnen und Kunden
+        sowie mit den Betreiberinnen und Betreibern beobachten.
+        Die offene und kommunikative Atmosphäre fördert den zwischenmenschlichen Austausch und macht den Späti
+        zu einem Ort des alltäglichen sozialen Miteinanders
 			</p>
 			<div class="flex aspect-video w-full items-center justify-center rounded-2xl bg-zinc-900 text-zinc-400 shadow-xl">
 				Bild-Platzhalter
 			</div>
 			<p>
-				Textblock: Späti als Treffpunkt
+        Besonders deutlich wird diese Funktion in Stadtteilen,
+        in denen Spätis über Sitzgelegenheiten im Aussenbereich verfügen.
+        Diese werden häufig als Treffpunkte genutzt, an denen sich Nachbarinnen und Nachbarn begegnen
+        oder Freundesgruppen nach der Arbeit oder der Universität gemeinsam Zeit verbringen.
+        Dadurch übernehmen Spätis Aufgaben, die weit über den Verkauf von Waren hinausgehen.
+        Sie leisten einen wichtigen Beitrag zum sozialen Leben im Kiez
+        und fördern den informellen Austausch innerhalb der Nachbarschaft.
 			</p>
 		</ContentSection>
 
