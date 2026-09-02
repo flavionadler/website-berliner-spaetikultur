@@ -51,16 +51,7 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
               Durch ihre Präsenz prägen sie das Strassenbild zahlreicher Quartiere
               und tragen wesentlich zur lebendigen Atmosphäre der Wohnviertel bei.
 						</p>
-						<p>
-							Eine weitere zentrale Bedeutung kommt Spätis im Berliner Nachtleben zu.
-              Dank ihrer langen Öffnungszeiten gewährleisten sie die Versorgung mit Waren auch ausserhalb der regulären Ladenöffnungszeiten
-              und stellen insbesondere in den Abend- und Nachtstunden einen wichtigen Anlaufpunkt dar.
-              Häufig werden sie vor oder nach dem Besuch von Bars, Clubs oder kulturellen Veranstaltungen aufgesucht.
-              Darüber hinaus dienen sie als Treffpunkte für Freundesgruppen oder als Ort für kurze Pausen während einer langen Nacht.
-              In einer Stadt wie Berlin, die international für ihr vielfältiges Nachtleben bekannt ist,
-              bilden Spätis somit einen wichtigen Bestandteil der urbanen Infrastruktur.
-						</p>
-					</div>
+          </div>
 				</template>
 				<template #right>
 					<div class="flex aspect-video w-full items-center justify-center rounded-2xl bg-zinc-900 text-zinc-400 shadow-xl">
@@ -68,6 +59,18 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
 					</div>
 				</template>
 			</SplitSection>
+      <p>
+        Eine weitere zentrale Bedeutung kommt Spätis im Berliner Nachtleben zu.
+        Dank ihrer langen Öffnungszeiten gewährleisten sie die Versorgung mit Waren
+        auch ausserhalb der regulären Ladenöffnungszeiten und stellen insbesondere
+        in den Abend- und Nachtstunden einen wichtigen Anlaufpunkt dar.
+        Häufig werden sie vor oder nach dem Besuch von Bars, Clubs oder kulturellen
+        Veranstaltungen aufgesucht. Darüber hinaus dienen sie als Treffpunkte für
+        Freundesgruppen oder als Ort für kurze Pausen während einer langen Nacht.
+        In einer Stadt wie Berlin, die international für ihr vielfältiges Nachtleben
+        bekannt ist, bilden Spätis somit einen wichtigen Bestandteil der urbanen
+        Infrastruktur.
+      </p>
 		</ContentSection>
 
 		<ContentSection title="Meinung">
