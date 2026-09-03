@@ -156,13 +156,13 @@ const timeline = [
 		</ContentSection>
 
 		<ContentSection title="Die Zeit nach der Wiedervereinigung">
-			<p>
-				Mit der Wiedervereinigung veränderte sich das Konzept der Spätverkaufsstellen grundlegend. Die staatlich
-				organisierten Verkaufsstellen verschwanden nach und nach oder wurden privatisiert. Gleichzeitig
-				entstanden zahlreiche neue Spätis, die sich stärker an den Bedürfnissen ihrer Kundschaft orientierten.
-			</p>
 			<SplitSection>
 				<template #left>
+					<p>
+						Mit der Wiedervereinigung veränderte sich das Konzept der Spätverkaufsstellen grundlegend. Die staatlich
+						organisierten Verkaufsstellen verschwanden nach und nach oder wurden privatisiert. Gleichzeitig
+						entstanden zahlreiche neue Spätis, die sich stärker an den Bedürfnissen ihrer Kundschaft orientierten.
+					</p>
 					<p>
 						Das Sortiment wurde deutlich vielfältiger, und viele Betreiber verlängerten ihre Öffnungszeiten. Aus den
 						ehemaligen Versorgungsstellen entwickelten sich kleine, privat geführte Geschäfte, die Getränke, Snacks,
@@ -213,6 +213,13 @@ const timeline = [
 			<p>
 				Einige dieser Standorte wurden deshalb in Spätis umgewandelt und übernahmen erneut eine soziale Funktion
 				im Quartier – diesmal jedoch als unkomplizierte Begegnungsorte für Nachbarn, Stammkunden und Besucher.
+			</p>
+		</ContentSection>
+
+		<ContentSection class="mt-12">
+			<p class="font-mono text-sm text-zinc-500">
+				Ein herzliches Dankeschön an Stefan Wolle und das DDR Museum für ihren wertvollen Beitrag zu dieser
+				Seite.
 			</p>
 		</ContentSection>
 
