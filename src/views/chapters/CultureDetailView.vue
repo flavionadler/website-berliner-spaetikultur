@@ -9,7 +9,8 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
 
 <template>
 	<HeroSection :image="heroImg" title="Kultur und Soziales" eyebrow="Spätis als Treffpunkte"
-	             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+               description="Erfahren Sie, welche soziale und kulturelle Bedeutung Spätis für Berlin haben
+               und wie sie als Treffpunkte und Teil des Nachtlebens das Leben in den Kiezen prägen."
 	             scroll-target="#culture-content" />
 	<PageContainer id="culture-content">
 		<ContentSection>
