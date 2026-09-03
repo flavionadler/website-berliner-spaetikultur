@@ -8,6 +8,7 @@ import SplitSection from '@/components/SplitSection.vue';
 import YoutubeVideo from '@/components/YoutubeVideo.vue';
 import InfoBox from '@/components/InfoBox.vue';
 import {RouteNames} from '@/constants/enums.ts';
+import FlipCard from '@/components/FlipCard.vue';
 </script>
 
 <template>
@@ -109,27 +110,58 @@ import {RouteNames} from '@/constants/enums.ts';
 					</p>
 				</template>
 				<template #right>
-					<YoutubeVideo video-id="ruOoPMOsTZ4"/>
+					<FlipCard>
+						<template #front>
+							<div class="flex flex-col items-center gap-4">
+								<h2 class="text-3xl font-bold tracking-tight text-white">
+									Lohnt es sich für Spätis, in der Nacht so lange offen zu haben?
+								</h2>
+
+								<p class="text-lg text-zinc-400">
+									Beantwortet von Kaan Mirzanli - Späti-Besitzer
+								</p>
+							</div>
+						</template>
+						<template #back>
+							<YoutubeVideo video-id="O393BqebQ-4"/>
+						</template>
+					</FlipCard>
 				</template>
 			</SplitSection>
 		</ContentSection>
 
 		<ContentSection title="Herausforderung der Selbstständigkeit">
-			<p>
-				Einen Späti zu betreiben, bedeutet für die meisten Inhaberinnen und Inhaber, selbstständig zu sein – mit
-				allem, was dazugehört:
-			</p>
-			<QuoteBlock
-				quote="Wenn du einen Späti hast, bist du selbstständig – und wie das Wort sagt: selbst und ständig. Auch
-				an einem freien Tag sitzt man nicht einfach zu Hause: Man behält die Kameras im Blick, vergleicht
-				Angebote bei verschiedenen Grossmärkten und organisiert den Nachschub."
-				author="Kaan Mirzanli"
-				source="Besitzer vom Späti 'Spätify' in Kreuzberg" />
-			<p>
-				Dazu gehört die laufende Beobachtung von Aktionen grosser Ketten wie Kaufland oder Rewe, um Waren
-				möglichst günstig einzukaufen, ebenso wie die Koordination eines Teams, das im Schichtbetrieb rund um
-				die Uhr im Einsatz ist.
-			</p>
+			<SplitSection>
+				<template #left>
+					<FlipCard>
+						<template #front>
+							<div class="flex flex-col items-center gap-4">
+								<h2 class="text-3xl font-bold tracking-tight text-white">
+									Welche Herausforderung hat man als Späti-Besitzer?
+								</h2>
+
+								<p class="text-lg text-zinc-400">
+									Beantwortet von Kaan Mirzanli - Späti-Besitzer
+								</p>
+							</div>
+						</template>
+						<template #back>
+							<YoutubeVideo video-id="c0bINJhwzs8"/>
+						</template>
+					</FlipCard>
+				</template>
+				<template #right>
+					<p>
+						Einen Späti zu betreiben, bedeutet für die meisten Inhaberinnen und Inhaber, selbstständig zu sein – mit
+						allem, was dazugehört:
+					</p>
+					<p>
+						Dazu gehört die laufende Beobachtung von Aktionen grosser Ketten wie Kaufland oder Rewe, um Waren
+						möglichst günstig einzukaufen, ebenso wie die Koordination eines Teams, das im Schichtbetrieb rund um
+						die Uhr im Einsatz ist.
+					</p>
+				</template>
+			</SplitSection>
 		</ContentSection>
 
 		<ContentSection title="Mehr als nur ein Geschäft">

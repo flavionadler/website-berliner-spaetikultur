@@ -84,7 +84,7 @@ const timeline = [
 							</div>
 						</template>
 						<template #back>
-							<YoutubeVideo video-id="67TTe-UwVdc"/>
+							<YoutubeVideo video-id="yVKFVzISvPk"/>
 						</template>
 					</FlipCard>
 				</template>
