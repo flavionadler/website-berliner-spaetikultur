@@ -9,7 +9,7 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
 </script>
 
 <template>
-	<HeroSection :image="heroImg" title="Kritik" eyebrow="Von Lärm bis hinzu Gewalt"
+	<HeroSection :image="heroImg" title="Kritik" eyebrow="Von Lärm bis hin zu Gewalt"
 	             description="Erfahren Sie, welchen rechtlichen, wirtschaftlichen und gesellschaftlichen Herausforderungen
 	              Berliner Spätis begegnen und wie diese ihre Zukunft im Stadtbild beeinflussen."
 	             scroll-target="#criticism-content" />
