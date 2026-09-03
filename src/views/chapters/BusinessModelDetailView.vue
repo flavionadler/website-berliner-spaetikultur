@@ -66,12 +66,24 @@ import FlipCard from '@/components/FlipCard.vue';
 				Faktor-Modell. Dabei wird der Einkaufspreis eines Produkts, den die Spätis beim Grosshändler zahlen, mit
 				einem festen Faktor multipliziert, der die Betriebskosten für Miete, Strom und Personal deckt:
 			</p>
-			<QuoteBlock
-				quote="Normalerweise arbeiten die meisten Spätis mit einem Faktor von zwei: Kauft man ein Bier für einen
-				Euro inklusive Mehrwertsteuer ein, verkauft man es für zwei Euro. Bei uns, wo die Miete grösser ist,
-				liegt der Faktor bei einigen Produkten auch bei bis zu 2.5."
-				author="Kaan Mirzanli"
-				source="Besitzer vom Späti 'Spätify' in Kreuzberg" />
+			<div class="flex justify-center">
+				<FlipCard class="w-full max-w-md">
+					<template #front>
+						<div class="flex flex-col items-center gap-4">
+							<h2 class="text-3xl font-bold tracking-tight text-white">
+								Wie setzen Spätis die Preise für ihre Produkte?
+							</h2>
+
+							<p class="text-lg text-zinc-400">
+								Beantwortet von Kaan Mirzanli - Späti-Besitzer
+							</p>
+						</div>
+					</template>
+					<template #back>
+						<YoutubeVideo video-id="VVGEI21xOeU"/>
+					</template>
+				</FlipCard>
+			</div>
 			<p>
 				Dieses Modell erklärt, weshalb Spätis im Vergleich zu grossen Supermarktketten meist höhere Preise
 				verlangen. Viele Kundinnen und Kunden nehmen diesen Umstand aufgrund der langen Öffnungszeiten und der
