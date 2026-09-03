@@ -74,24 +74,19 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
 		</ContentSection>
 
 		<ContentSection title="Meinung">
-			<SplitSection>
-				<template #left>
-					<p>
-						Unsere Beobachtungen zeigen zudem, dass auch Besucherinnen und Besucher aus dem Ausland
-            dem Konzept der Spätis überwiegend positiv gegenüberstehen.
-            Viele äusserten sich überrascht darüber, dass ein vergleichbares Angebot in ihren Herkunftsländern nicht existiert.
-            Auch in der Schweiz ist dieses Konzept kaum verbreitet und lässt sich höchstens mit sogenannten Migrolinos vergleichen.
-            Diese erfüllen jedoch in erster Linie eine Nahversorgungsfunktion
-            und besitzen nicht dieselbe soziale und kulturelle Bedeutung wie ein Berliner Späti.
-            Zudem zeigen Umfragen in der Schweiz, dass ein vergleichbares Konzept von der Bevölkerung derzeit kaum als notwendig erachtet wird.
-					</p>
-				</template>
-				<template #right>
-					<QuoteBlock
-						quote="Wer nachts einsam ist kann sich da ein bisschen hinsetzen das ist ja die soziale Funktion das ist eigentlich sehr gut, dass es sowas gibt."
-						author="Nathan? --> noch prüfen!!!" />
-				</template>
-			</SplitSection>
+      <p>
+        Unsere Beobachtungen zeigen zudem, dass auch Besucherinnen und Besucher aus dem Ausland
+        dem Konzept der Spätis überwiegend positiv gegenüberstehen.
+        Viele äusserten sich überrascht darüber, dass ein vergleichbares Angebot in ihren Herkunftsländern nicht existiert.
+        Auch in der Schweiz ist dieses Konzept kaum verbreitet und lässt sich höchstens mit sogenannten Migrolinos vergleichen.
+        Diese erfüllen jedoch in erster Linie eine Nahversorgungsfunktion
+        und besitzen nicht dieselbe soziale und kulturelle Bedeutung wie ein Berliner Späti.
+        Zudem zeigen Umfragen in der Schweiz, dass ein vergleichbares Konzept von der Bevölkerung derzeit kaum als notwendig erachtet wird.
+      </p>
+      <QuoteBlock
+          quote="Wer nachts einsam ist, kann sich da ein bisschen hinsetzen. Das ist ja die soziale Funktion. Das ist eigentlich sehr gut, dass es sowas gibt."
+          author="Nathan? --> noch prüfen!!!"
+      />
 			<p>
 				Insgesamt wird deutlich, dass Spätis weit mehr sind als kleine Einzelhandelsgeschäfte.
         Sie vereinen wirtschaftliche, soziale und kulturelle Funktionen
