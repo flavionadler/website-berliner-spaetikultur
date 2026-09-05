@@ -6,6 +6,7 @@ import PageContainer from "@/components/PageContainer.vue";
 import ContentSection from "@/components/ContentSection.vue";
 import SplitSection from '@/components/SplitSection.vue';
 import QuoteBlock from '@/components/QuoteBlock.vue';
+import trashImg from '@/assets/images/criticism/spaeti-muell-flaschen.jpg';
 </script>
 
 <template>
@@ -69,7 +70,7 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
         Ausserdem sind die Besitzer bei mehr als 50 m² Aufenthaltsfläche oder mehr als 10 Sitzplätzen gemäss § 4 Abs. 5 der Berliner Gaststättenverordnung (GastV) dazu verpflichtet,
         sanitäre Anlagen zur Verfügung zu stellen. Damit geht ein weiterer Aufwand und gegebenenfalls weiteres Personal einher.
 			</p>
-			<p>
+      <p>
 				Aus diesem Grund verzichten viele Betreiber bewusst auf grössere Sitzbereiche oder stellen lediglich einzelne Stühle vor ihrem Geschäft auf.
         Daher beantragen viele Besitzer ihre Sitzmöglichkeiten nicht als Sitzmöglichkeiten für Kundschaft, sondern für Mitarbeitende.
         Grössere Sitzgruppen können zu Ansammlungen von Personen führen, wodurch Beschwerden wegen Lärms,
@@ -81,13 +82,18 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
 		</ContentSection>
 
 		<ContentSection title="Ökologische Schwierigkeiten">
-			<p>
-				Auch Umweltaspekte werden regelmässig mit Spätis in Verbindung gebracht.
+      <p>
+        Auch Umweltaspekte werden regelmässig mit Spätis in Verbindung gebracht.
         Insbesondere in der Nähe von Parks oder öffentlichen Plätzen kaufen viele Besucher Getränke in einem Späti und verbringen anschliessend dort ihre Freizeit.
         Werden Verpackungen oder Flaschen anschliessend nicht ordnungsgemäss entsorgt, entstehen Verschmutzungen des öffentlichen Raums.
         Die Verantwortung hierfür liegt jedoch nicht beim Späti selbst, sondern im Verhalten einzelner Kundinnen und Kunden.
-			</p>
-		</ContentSection>
+      </p>
+      <img
+          :src="trashImg"
+          alt="Herumliegende Flaschen und Müll"
+          class="aspect-video w-full rounded-2xl object-cover shadow-xl"
+      />
+    </ContentSection>
 
 		<ContentSection title="Wirtschaftliche Schwierigkeiten">
 			<SplitSection>
