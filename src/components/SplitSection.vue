@@ -9,7 +9,7 @@ defineProps<{
 	<div
 		:class="[
 			'grid grid-cols-1 lg:grid-cols-2 gap-10',
-			align === 'center' ? 'items-center' : 'items-start'
+			align === 'center' ? 'items-center' : 'items-center'
 		]">
 			<slot name="left" />
 
