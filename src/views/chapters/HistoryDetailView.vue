@@ -41,7 +41,7 @@ const timeline = [
 </script>
 
 <template>
-	<HeroSection :image="heroImg" title="Geschichte" eyebrow="Ursürunge in der DDR"
+	<HeroSection :image="heroImg" title="Geschichte" eyebrow="Ursprünge in der DDR"
 	             description="Die Geschichte des Berliner Spätis beginnt lange vor dem heutigen Kiezladen. Von den staatlichen Spätverkaufsstellen der DDR bis zum Treffpunkt der Berliner Nacht- und Kiezkultur hat sich seine Funktion grundlegend gewandelt."
 	             scroll-target="#history-content"/>
 	<PageContainer id="history-content">
