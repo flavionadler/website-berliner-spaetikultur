@@ -5,6 +5,7 @@ import PageContainer from '@/components/PageContainer.vue';
 import ContentSection from '@/components/ContentSection.vue';
 import SplitSection from '@/components/SplitSection.vue';
 import QuoteBlock from '@/components/QuoteBlock.vue';
+import YoutubeVideo from '@/components/YoutubeVideo.vue';
 </script>
 
 <template>
@@ -52,9 +53,7 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
           </div>
 				</template>
 				<template #right>
-					<div class="flex aspect-video w-full items-center justify-center rounded-2xl bg-zinc-900 text-zinc-400 shadow-xl">
-						Video-Platzhalter
-					</div>
+					<YoutubeVideo video-id="K154mBJk0EM"/>
 				</template>
 			</SplitSection>
       <p>
