@@ -82,7 +82,7 @@ import YoutubeVideo from '@/components/YoutubeVideo.vue';
       </p>
       <QuoteBlock
           quote="Wer nachts einsam ist, kann sich da ein bisschen hinsetzen. Das ist ja die soziale Funktion. Das ist eigentlich sehr gut, dass es sowas gibt."
-          author="Nathan? --> noch prüfen!!!"
+          author="Dr. Wolle, 08.05.2026"
       />
 			<p>
 				Insgesamt wird deutlich, dass Spätis weit mehr sind als kleine Einzelhandelsgeschäfte.
