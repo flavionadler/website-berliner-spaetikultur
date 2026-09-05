@@ -119,7 +119,7 @@ import trashImg from '@/assets/images/criticism/spaeti-muell-flaschen.jpg';
       </p>
 			<QuoteBlock
 				quote="Der Konkurrenzkampf ist für ältere Spätis weniger zu spüren. Vor allem neue Läden haben Schwierigkeiten. Jeder Späti hat seine eigenen Stammkunden."
-				author="Nathan, 06.05.2026" />
+				author="Arbeiter vom Kiez Kiosk Alt-Moabit, 06.05.2026" />
 		</ContentSection>
 
 		<ContentSection title="Zusammenfassend">
