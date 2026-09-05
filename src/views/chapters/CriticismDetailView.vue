@@ -66,8 +66,8 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
         Obwohl die gesetzliche Grundlage berlinweit einheitlich ist, unterscheiden sich die Bezirke deutlich in ihrer Genehmigungspraxis.
         Während der Bezirk Mitte Sitzgelegenheiten unter bestimmten Voraussetzungen zulässt, verfolgt der Bezirk Pankow eine wesentlich restriktivere Praxis.
         Als Begründung werden insbesondere die Sicherstellung der Barrierefreiheit, ausreichend breite Gehwege sowie der Schutz der Anwohnerinnen und Anwohner vor Lärmbelästigungen angeführt.
-        Ausserdem sind die Besitzer ab 50 m² oder 10 Sitzplätzen [QUELLE / RECHTSGRUNDLAGE NOCH KLÄREN] dazu verpflichtet,
-        sanitäre Anlagen zur Verfügung zu stellen. Damit geht ein weiterer Aufwand und gegebenenfalls weiters Personal einher.
+        Ausserdem sind die Besitzer bei mehr als 50 m² Aufenthaltsfläche oder mehr als 10 Sitzplätzen gemäss § 4 Abs. 5 der Berliner Gaststättenverordnung (GastV) dazu verpflichtet,
+        sanitäre Anlagen zur Verfügung zu stellen. Damit geht ein weiterer Aufwand und gegebenenfalls weiteres Personal einher.
 			</p>
 			<p>
 				Aus diesem Grund verzichten viele Betreiber bewusst auf grössere Sitzbereiche oder stellen lediglich einzelne Stühle vor ihrem Geschäft auf.
