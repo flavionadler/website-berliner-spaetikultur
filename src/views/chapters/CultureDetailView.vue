@@ -21,12 +21,9 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
         Während unserer Recherche konnten wir zahlreiche spontane Gespräche zwischen Kundinnen und Kunden
         sowie mit den Betreiberinnen und Betreibern beobachten.
         Die offene und kommunikative Atmosphäre fördert den zwischenmenschlichen Austausch und macht den Späti
-        zu einem Ort des alltäglichen sozialen Miteinanders.
-			</p>
-			<div class="flex aspect-video w-full items-center justify-center rounded-2xl bg-zinc-900 text-zinc-400 shadow-xl">
-				Bild-Platzhalter
-			</div>
-			<p>
+          zu einem Ort des alltäglichen sozialen Miteinanders.
+        </p>
+      <p>
         Besonders deutlich wird diese Funktion in Stadtteilen,
         in denen Spätis über Sitzgelegenheiten im Aussenbereich verfügen.
         Diese werden häufig als Treffpunkte genutzt, an denen sich Nachbarinnen und Nachbarn begegnen
