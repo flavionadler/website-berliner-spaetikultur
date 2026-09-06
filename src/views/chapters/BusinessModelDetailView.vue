@@ -142,6 +142,53 @@ import FlipCard from '@/components/FlipCard.vue';
 			</SplitSection>
 		</ContentSection>
 
+		<ContentSection title="Individuelle Konzepte und Besonderheiten">
+			<p>
+				Auch wenn viele Spätis auf den ersten Blick basierend auf Öffnungszeiten und Sortiment ähnlich wirken,
+				entwickeln einzelne Betreiberinnen und Betreiber oft eigene, teils überraschende Ideen, mit denen sie
+				sich von anderen abheben. In manchen Spätis läuft beispielsweise durchgehend Musik, was zur Atmosphäre
+				beiträgt und bei der Kundschaft gut ankommt.
+			</p>
+
+			<p>
+				Einige Spätis organisieren Partys, Raves oder sonstige Events. Andere spezialisieren sich auf ein spezielles
+				Sortiment, welches sie von den anderen Spätis abhebt. Beispiele dafür wären Head-Shops, Backwarenabteilungen,
+				oder Bücher.
+			</p>
+
+			<InfoBox title="Beispiele">
+				<ul class="list-disc pl-10">
+					<li>
+						Der "Späti 68" in Prenzlauer Berg mit eigenem Tischtennis-Tisch und vielen Sitzmöglichkeit, wird
+						zum Treffpunkt des Kiez
+					</li>
+					<li>
+						Ein Späti in Wedding namens "Späti's Backshop", der nicht nur das übliche Sortiment verkauft,
+						sondern auch frische Backwaren
+					</li>
+					<li>"Späti und Blumen" verkauft neben dem üblichen Sortiment auch Blumen und Pflanzen.</li>
+					<li>
+						Der «Anzen»-Späti in Neukölln verwandelt sich einmal im Monat in einen improvisierten Club mit
+						Rave-Abenden
+					</li>
+					<li>
+						Der «Motzki» in Berlin-Schöneberg gilt fast schon als vornehmer Späti: Neben Sitzplätzen drinnen
+						und draussen gibt es dort auch Wein glasweise, nicht nur Bier und Tabak
+					</li>
+					<li>
+						Der Spätkauf an der Choriner Strasse in Prenzlauer Berg verkauft neben dem klassischen
+						Sortiment auch Backwaren und Wein und ist für sein nostalgisches, urig-charmantes Ambiente bekannt
+					</li>
+				</ul>
+			</InfoBox>
+
+			<p>
+				Solche Nischenkonzepte zeigen, dass der Späti als Geschäftsmodell viel Raum für Individualität lässt:
+				Solange die Grundfunktion erhalten bleibt, können Betreiberinnen und Betreiber frei entscheiden, mit
+				welchen zusätzlichen Ideen sie sich von der Konkurrenz abheben.
+			</p>
+		</ContentSection>
+
 		<ContentSection title="Herausforderung der Selbstständigkeit">
 			<SplitSection>
 				<template #left>
