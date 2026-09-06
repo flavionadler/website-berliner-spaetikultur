@@ -2,6 +2,7 @@
 import { onMounted, onUnmounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { RouteNames } from '@/constants/enums'
+import logo from '@/assets/images/spaetis-berlin_logo.png';
 
 const route = useRoute()
 
@@ -43,12 +44,16 @@ onUnmounted(() => {
 			? 'bg-black/70 backdrop-blur-md border-b border-white/10'
 			: 'bg-transparent border-b border-transparent'">
 
-		<div class="relative z-50 mx-auto flex h-18 max-w-[1800px] items-center justify-between px-10">
+		<div class="relative z-50 mx-auto flex h-18 max-w-[1800px] items-center justify-between px-4 md:px-10">
 
 			<RouterLink :to="{ name: RouteNames.home }"
 				class="text-xl font-bold tracking-wide text-white drop-shadow-lg hover:text-yellow-400 transition"
 				@click="closeMobileMenu">
-				Berliner Spätis
+				<img
+					:src="logo"
+					alt="Berliner Spätis"
+					class="h-14 w-auto"
+				/>
 			</RouterLink>
 
 			<nav class="hidden md:flex gap-8">
