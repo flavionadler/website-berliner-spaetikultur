@@ -46,18 +46,11 @@ import FlipCard from '@/components/FlipCard.vue';
 				Bier- und Alkoholsortiment."
 				author="Kaan Mirzanli"
 				source="Besitzer vom Späti 'Spätify' in Kreuzberg" />
-			<SplitSection>
-				<template #left>
-					<p>
-						Viele Betreiber passen ihr Angebot zudem an die Lage ihres Geschäfts und die Bedürfnisse ihrer
-						Kundschaft an. Ein Späti in einem ruhigen Wohnquartier erfüllt eine andere Funktion als einer in
-						unmittelbarer Nähe von Bars, Clubs oder touristischen Orten.
-					</p>
-				</template>
-				<template #right>
-					<YoutubeVideo video-id="dQw4w9WgXcQ"/>
-				</template>
-			</SplitSection>
+			<p>
+				Viele Betreiber passen ihr Angebot zudem an die Lage ihres Geschäfts und die Bedürfnisse ihrer
+				Kundschaft an. Ein Späti in einem ruhigen Wohnquartier erfüllt eine andere Funktion als einer in
+				unmittelbarer Nähe von Bars, Clubs oder touristischen Orten.
+			</p>
 		</ContentSection>
 
 		<ContentSection title="Preisgestaltung: Das Faktor-Model">
@@ -237,25 +230,17 @@ import FlipCard from '@/components/FlipCard.vue';
 				author="Kaan Mirzanli"
 				source="Besitzer vom Späti 'Spätify' in Kreuzberg"
 			/>
-			<SplitSection>
-				<template #left>
-					<div>
-						<p>
-							Selbst unter den Betreibern herrscht trotz wachsender Konkurrenz oft mehr Zusammenhalt als
-							Rivalität: Man hilft sich mit fehlenden Produkten aus oder übernimmt gute Ideen voneinander.
-						</p>
-						<p>
-							Ob Kulanz gegenüber Stammkunden, Treffpunkt vor dem Ausgehen oder Zusammenhalt unter den
-							Betreibern: Gerade diese Verbindung von wirtschaftlichem Erfolg und gesellschaftlicher Bedeutung
-							macht das Berliner Späti-Konzept einzigartig und unterscheidet es von klassischen Kiosken oder
-							Convenience Stores in vielen anderen Städten.
-						</p>
-					</div>
-				</template>
-				<template #right>
-					<YoutubeVideo video-id="QS_KHU5yzW4"/>
-				</template>
-			</SplitSection>
+
+			<p>
+				Selbst unter den Betreibern herrscht trotz wachsender Konkurrenz oft mehr Zusammenhalt als Rivalität:
+				Man hilft sich mit fehlenden Produkten aus oder übernimmt gute Ideen voneinander.
+			</p>
+			<p>
+				Ob Kulanz gegenüber Stammkunden, Treffpunkt vor dem Ausgehen oder Zusammenhalt unter den Betreibern:
+				Gerade diese Verbindung von wirtschaftlichem Erfolg und gesellschaftlicher Bedeutung macht das Berliner
+				Späti-Konzept einzigartig und unterscheidet es von klassischen Kiosken oder Convenience Stores in vielen
+				anderen Städten.
+			</p>
 		</ContentSection>
 
 		<ContentSection title="Fazit">
