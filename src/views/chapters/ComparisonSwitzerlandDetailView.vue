@@ -39,14 +39,27 @@ import FlipCard from '@/components/FlipCard.vue';
 						<a
 							href="https://www.parlament.ch/de/services/news/Seiten/2026/20260609111905814194158159026_bsd062.aspx?"
 							target="_blank" class="text-yellow-500">
-							Link
+							Ladenöffnungszeiten in der Schweiz: Was Sie wissen müssen
 						</a>
 					</p>
 				</template>
 				<template #right>
 					<img :src="cantonAgImg" alt="Kanton Aargau auf der Schweizer Karte"/>
+					<p>Kanton Aargau mit lockeren Konditionen für Ladenöffnungszeiten.</p>
 				</template>
 			</SplitSection>
+			<p>
+				Ein ähnliches Konzept zeigt sich zurzeit vor allem bei Migrolino oder Coop Pronto. Sie besitzen ein ähnliches
+				Sortiment. Jedoch gilt für beide die Kantonalen Richtlinien. Ausserdem gehören sie zu einer Kette und sind
+				lediglich ein Tochterkonzept von der Migros, wie vom Coop. Spätis im Vergleich sind eigenständige Läden.
+			</p>
+			<p>
+				Die Migros hält jedoch mit einem ganz anderen Konzept mit. Sie entwickelten das Konzept Migros teo. Hier sind
+				keine Verkäufer vor Ort. Es ist lediglich ein Team von zwei Leuten involviert, welche die Verantwortung
+				besitzen, diesen Laden aufzufüllen. Grundsätzlich funktioniert es über die Self-Checkout-Kassen. Das ist um
+				einiges einfacher mit dem Recht zu vereinbaren, da die Einschränkung vor allem beim Personal liegt.
+			</p>
+			<p><a href="https://corporate.migros.ch/de/news/ein-migros-teo-fuer-speicher" target="_blank" class="text-yellow-500">Ein Migros teo für Speicher | Migros</a></p>
 		</ContentSection>
 
 		<ContentSection title="Warum der Sonntag schwieriger ist">
@@ -74,7 +87,7 @@ import FlipCard from '@/components/FlipCard.vue';
 				weder dieselben Rechte noch dieselben Pflichten erhalten.
 			</p>
 			<p>
-				Offizielle Informationen des SECO: <a href="https://www.seco.admin.ch/de/faq-ladenoeffnung-sonntag" target="_blank" class="text-yellow-500">Link</a>
+				Offizielle Informationen des SECO: <a href="https://www.seco.admin.ch/de/faq-ladenoeffnung-sonntag" target="_blank" class="text-yellow-500">FAQ Ladenöffnung am Sonntag</a>
 			</p>
 		</ContentSection>
 
@@ -131,7 +144,7 @@ import FlipCard from '@/components/FlipCard.vue';
 				veränderten Einkaufsgewohnheiten, dem Onlinehandel und der Möglichkeit, den Kantonen mehr Flexibilität zu
 				geben. Die Gegner stellten dagegen den Schutz des Sonntags und der Arbeitnehmenden in den Mittelpunkt.
 			</p>
-			<p>Die Abstimmung im Detail: <a href="https://www.parlament.ch/de/services/news/Seiten/2026/20260609105007655194158159026_bsd053.aspx" target="_blank" class="text-yellow-500">Link</a></p>
+			<p>Die Abstimmung im Detail: <a href="https://www.parlament.ch/de/services/news/Seiten/2026/20260609105007655194158159026_bsd053.aspx" target="_blank" class="text-yellow-500">Der Ständerat will keine zusätzlichen Sonntagsverkäufe</a></p>
 		</ContentSection>
 
 		<ContentSection title="Was bedeutet das für einen Schweizer Späti?">
@@ -194,6 +207,10 @@ import FlipCard from '@/components/FlipCard.vue';
 				oder am Sonntag ab. Diese Umfrage ist allerdings älter und bezieht sich auf Beschäftigte, nicht
 				auf die Gesamtbevölkerung.
 			</p>
+			<p>Links zu den Umfragen und Diskussionen:</p>
+			<p><a href="https://unia.ch/fileadmin/bern/2025-08-27_Dossier_Befragung_Ladenoeffnungszeiten.pdf" target="_blank" class="text-yellow-500">2025-08-27_Dossier_Befragung_Ladenoeffnungszeiten.pdf</a></p>
+			<p><a href="https://www.srf.ch/radio-srf-1/mehr-sonntagsverkaeufe-umstrittene-ladenoeffnungszeiten-shoppen-auch-am-sonntag" target="_blank" class="text-yellow-500">Braucht es mehr Sonntagsverkäufe in der Schweiz? - Radio SRF 1 - SRF</a></p>
+			<p><a href="https://www.sgb.ch/themen/arbeit/detail/verkaeuferinnen-wollen-nicht-noch-laenger-arbeiten" target="_blank" class="text-yellow-500">VerkäuferInnen wollen nicht noch länger arbeiten</a></p>
 		</ContentSection>
 
 		<ContentSection title="Ein Schweizer Späti wäre also möglich, jedoch auf andere Art und Weise als Berlin.">
@@ -210,13 +227,13 @@ import FlipCard from '@/components/FlipCard.vue';
 				Berliner Späti ausmacht.
 			</p>
 			<p>
-				Die politische Diskussion über die Möglichkeit 12 anstelle von vier Sonntagen umstritten ist. Der Bundesrat
+				Die politische Diskussion über die Möglichkeit 12 anstelle von vier Sonntagen ist umstritten. Der Bundesrat
 				wollte den Kantonen mehr Möglichkeiten geben, der Ständerat lehnte dies im Juni 2026 jedoch knapp ab.
 				Die Frage, wie viel Einkaufsmöglichkeiten eine Gesellschaft am Sonntag braucht und wie viel Schutz die
 				Beschäftigten benötigen, bleibt damit offen.
 			</p>
 			<p>
-				Das Konzept von dem jetzigen Standpunkt nicht eins zu eins eingebunden werden. Die rechtliche Lage müsste
+				Das Konzept kann vom jetzigen Standpunkt aus nicht eins zu eins umgesetzt werden. Die rechtliche Lage müsste
 				angepasst werden oder das Konzept muss an die Gesetze angepasst werden.
 			</p>
 		</ContentSection>
