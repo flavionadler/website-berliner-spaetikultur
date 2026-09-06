@@ -14,7 +14,8 @@ import FlipCard from '@/components/FlipCard.vue';
 <template>
 	<HeroSection :image="heroImg" title="Geschäftsmodell" eyebrow="Mehr als nur ein Kiosk"
 	             description="Erfahren Sie, wie Berliner Spätis wirtschaftlich funktionieren und weshalb lange
-	             Öffnungszeiten, ein gezieltes Sortiment und die Nähe zur Nachbarschaft ihren Erfolg ausmachen."
+	             Öffnungszeiten, ein gezieltes Sortiment und die Nähe zur Nachbarschaft ihren Erfolg ausmachen.
+	             Erfahren Sie auch etwas, über die Unterschiede zur Schweiz!"
 	             scroll-target="#business-model-content" />
 	<PageContainer id="business-model-content">
 		<ContentSection>
