@@ -34,16 +34,16 @@ import YoutubeVideo from "@/components/YoutubeVideo.vue";
         führen regelmässig zu Diskussionen zwischen Betreibern und Behörden.
 			</p>
 			<p>
-				Rechtlich sind Spätis grundsätzlich Einzelhandelsbetriebe und unterliegen damit dem Berliner Ladenöffnungsgesetz (BerlLadÖffG).
-        Gemäss § 3 BerlLadÖffG dürfen Verkaufsstellen in Berlin von Montag bis Samstag grundsätzlich ohne zeitliche Begrenzung geöffnet sein.
-        An Sonn- und gesetzlichen Feiertagen müssen Einzelhandelsgeschäfte hingegen gemäss § 4 BerlLadÖffG grundsätzlich geschlossen bleiben.
+				Rechtlich sind Spätis grundsätzlich Einzelhandelsbetriebe und unterliegen damit dem <a href="https://gesetze.berlin.de/perma?j=L%C3%96G_BE" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">Berliner Ladenöffnungsgesetz (BerlLadÖffG)</a>.
+        Gemäss <a href="https://gesetze.berlin.de/perma?j=L%C3%96G_BE_!_3" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">§ 3 BerlLadÖffG</a> dürfen Verkaufsstellen in Berlin von Montag bis Samstag grundsätzlich ohne zeitliche Begrenzung geöffnet sein.
+        An Sonn- und gesetzlichen Feiertagen müssen Einzelhandelsgeschäfte hingegen gemäss <a href="https://gesetze.berlin.de/bsbe/?docId=jlr-NNLBE00004B5FNN00000000012&amp;query=JURISLINK%3A%22L%C3%96G+BE+%C2%A7+4%22" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">§ 4 BerlLadÖffG</a> grundsätzlich geschlossen bleiben.
 			</p>
 			<SplitSection>
 				<template #left>
 					<p>
 						Viele Berliner Spätis betreiben zusätzlich einen gastronomischen Betrieb und gelten damit als sogenannte Mischbetriebe.
-            Die rechtliche Grundlage hierfür bilden das Gaststättengesetz (GastG) sowie die hierzu ergangene Rechtsprechung.
-            Das Verwaltungsgericht Berlin (Beschluss vom 18. Juli 2019, Az. VG 4 L 216.19) stellte klar,
+            Die rechtliche Grundlage hierfür bilden das <a href="https://www.gesetze-im-internet.de/gastg/" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">Gaststättengesetz (GastG)</a> sowie die hierzu ergangene Rechtsprechung.
+            Das Verwaltungsgericht Berlin (<a href="https://gesetze.berlin.de/perma?d=NJRE001398332" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">Beschluss vom 23. August 2019, Az. VG 4 L 216.19</a>) stellte klar,
             dass ein Betrieb gleichzeitig Einzelhandel und Gaststätte sein kann.
             Während der Einzelhandel an Sonn- und Feiertagen grundsätzlich geschlossen bleiben muss,
             darf der Gaststättenbetrieb weiterhin Speisen und Getränke zum unmittelbaren Verzehr anbieten.
@@ -63,7 +63,7 @@ import YoutubeVideo from "@/components/YoutubeVideo.vue";
       </p>
 			<p>
 				Ein weiterer häufiger Diskussionspunkt betrifft die Sitzmöglichkeiten vor den Geschäften.
-        Werden Tische oder Stühle auf öffentlichem Strassenland aufgestellt, handelt es sich um eine Sondernutzung im Sinne des § 11 Berliner Strassengesetz (BerlStrG).
+        Werden Tische oder Stühle auf öffentlichem Strassenland aufgestellt, handelt es sich um eine Sondernutzung im Sinne des <a href="https://gesetze.berlin.de/bsbe/document/jlr-StrGBEV21P11" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">§ 11 Berliner Strassengesetz (BerlStrG)</a>.
         Für diese Nutzung ist grundsätzlich eine Sondernutzungserlaubnis erforderlich.
         Obwohl die gesetzliche Grundlage berlinweit einheitlich ist, unterscheiden sich die Bezirke deutlich in ihrer Genehmigungspraxis.
         Während der Bezirk Mitte Sitzgelegenheiten unter bestimmten Voraussetzungen zulässt, verfolgt der Bezirk Pankow eine wesentlich restriktivere Praxis.
