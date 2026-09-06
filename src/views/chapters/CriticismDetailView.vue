@@ -7,6 +7,7 @@ import ContentSection from "@/components/ContentSection.vue";
 import SplitSection from '@/components/SplitSection.vue';
 import QuoteBlock from '@/components/QuoteBlock.vue';
 import trashImg from '@/assets/images/criticism/spaeti-muell-flaschen.jpg';
+import YoutubeVideo from "@/components/YoutubeVideo.vue";
 </script>
 
 <template>
@@ -107,9 +108,7 @@ import trashImg from '@/assets/images/criticism/spaeti-muell-flaschen.jpg';
 					</p>
 				</template>
 				<template #right>
-					<div class="flex aspect-video w-full items-center justify-center rounded-2xl bg-zinc-900 text-zinc-400 shadow-xl">
-						Video-Platzhalter
-					</div>
+          <YoutubeVideo video-id="x-kQ7T_b6AA"/>
 				</template>
 			</SplitSection>
       <p>Da Spätis ihre laufenden Kosten – insbesondere Miete, Personal, Energie, Wareneinsatz und Steuern – decken müssen,
