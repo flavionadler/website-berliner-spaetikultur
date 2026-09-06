@@ -63,7 +63,7 @@ import YoutubeVideo from "@/components/YoutubeVideo.vue";
       </p>
 			<p>
 				Ein weiterer häufiger Diskussionspunkt betrifft die Sitzmöglichkeiten vor den Geschäften.
-        Werden Tische oder Stühle auf öffentlichem Strassenland aufgestellt, handelt es sich um eine Sondernutzung im Sinne des <a href="https://gesetze.berlin.de/bsbe/document/jlr-StrGBEV21P11" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">§ 11 Berliner Strassengesetz (BerlStrG)</a>.
+        Werden Tische oder Stühle auf öffentlichem Strassenland aufgestellt, handelt es sich um eine Sondernutzung im Sinne des <a href="https://gesetze.berlin.de/perma?j=StrG_BE_!_11" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">§ 11 Berliner Strassengesetz (BerlStrG)</a>.
         Für diese Nutzung ist grundsätzlich eine Sondernutzungserlaubnis erforderlich.
         Obwohl die gesetzliche Grundlage berlinweit einheitlich ist, unterscheiden sich die Bezirke deutlich in ihrer Genehmigungspraxis.
         Während der Bezirk Mitte Sitzgelegenheiten unter bestimmten Voraussetzungen zulässt, verfolgt der Bezirk Pankow eine wesentlich restriktivere Praxis.
