@@ -42,9 +42,7 @@ const chapters = [
 
 <template>
 	<HeroSection :image="heroImg" eyebrow="IDPA-Projekt" title="Spätis in Berlin"
-	             subtitle="Ein Stück Alltagskultur"
-	             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-	             scroll-target="#home-content"/>
+	             subtitle="Ein Stück Alltagskultur" scroll-target="#home-content"/>
 	<PageContainer id="home-content">
 		<ContentSection>
 			<p>
