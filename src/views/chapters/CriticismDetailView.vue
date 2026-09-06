@@ -110,16 +110,17 @@ import YoutubeVideo from "@/components/YoutubeVideo.vue";
 				<template #right>
           <YoutubeVideo video-id="x-kQ7T_b6AA"/>
 				</template>
-			</SplitSection>
+      </SplitSection>
+      <QuoteBlock
+          quote="Der Konkurrenzkampf ist für ältere Spätis weniger zu spüren. Vor allem neue Läden haben Schwierigkeiten. Jeder Späti hat seine eigenen Stammkunden."
+          author="Arbeiter vom Kiez Kiosk Alt-Moabit, 06.05.2026" />
+
       <p>Da Spätis ihre laufenden Kosten – insbesondere Miete, Personal, Energie, Wareneinsatz und Steuern – decken müssen,
         sind sie auf ausreichende Gewinnmargen angewiesen.
         Aussagen, wonach sämtliche Produkte grundsätzlich mit einem Gewinnaufschlag von 100 Prozent verkauft werden müssten,
         lassen sich jedoch wissenschaftlich nicht belegen und hängen stark vom jeweiligen Produkt sowie vom Geschäftsmodell des Betriebs ab.
       </p>
-			<QuoteBlock
-				quote="Der Konkurrenzkampf ist für ältere Spätis weniger zu spüren. Vor allem neue Läden haben Schwierigkeiten. Jeder Späti hat seine eigenen Stammkunden."
-				author="Arbeiter vom Kiez Kiosk Alt-Moabit, 06.05.2026" />
-		</ContentSection>
+    </ContentSection>
 
 		<ContentSection title="Zusammenfassend">
 			<p>
