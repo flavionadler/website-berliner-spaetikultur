@@ -12,12 +12,12 @@ import ContentSection from '@/components/ContentSection.vue';
 	<PageContainer id="about-content">
 		<ContentSection title="Das Projekt">
 			<p>Wir sind eine Gruppe Lernender in Informatik und Automation.
-        Zusammenen haben wir ein halbes Jahr lang an diesem Projekt für unsere Interdisziplinäre Projektarbeit gearbeitet.
-        Viele aus dem Team waren schon in Berlin und waren von den einzigartigen "Spätis" erstaunt. Zusammen haben
+        Zusammenen haben wir ein halbes Jahr lang an dieser Webseite für unsere Interdisziplinäre Projektarbeit in der Schule gearbeitet.
+        Viele aus dem Team waren schon in Berlin und staunten über die einzigartigen "Spätis". Zusammen haben
         wir uns für diese Leitfrage des Projekts entschieden:
       </p>
 
-      <p>Welche Rolle spielen Spätis als Geschäftsmodell, sozialer Treffpunkt und Bestandteil des Berliner Nachtlebens?</p>
+      <p>"Welche Rolle spielen Spätis als Geschäftsmodell, sozialer Treffpunkt und Bestandteil des Berliner Nachtlebens?"</p>
 
       <p>Mit unserem Projekt wollten wir genau das anschauen und das Konzept als Ganzes mit der Schweiz,
         unserem Heimatland, vetgleichen. Wir können mit voller Überzaugung sagen:</p>
