@@ -11,15 +11,30 @@ import ContentSection from '@/components/ContentSection.vue';
 	             scroll-target="#about-content"/>
 	<PageContainer id="about-content">
 		<ContentSection title="Das Projekt">
-			<p>Beschreibung was das Projekt ist, warum gwählt, Leitfrage, These und Beantwortung</p>
+			<p>Welche Rolle spielen Spätis als Geschäftsmodell, sozialer Treffpunkt und Bestandteil des Berliner Nachtlebens?</p>
+
+      <p>Mit unserem Projekt wollten wir genau das anschauen und das Konzept als gnzes mit der Schweiz,
+        unserem Heimatland, vetgleichen. Wir können mit voller Überzaugung sagen:</p>
+
+      <p>Spätis sind mehr als nur Verkaufsstellen; sie sind ein erfolgreiches,
+        flexibles Geschäftsmodell und zugleich soziale Treffpunkte,
+        die als fester Bestandteil der Berliner Nacht- und Alltagskultur eine zentrale Rolle übernehmen.</p>
 		</ContentSection>
 
 		<ContentSection title="Vorgehen">
-			<p>Beschreibung des Vorgehen, Reise nach Berlin usw.</p>
+			<p>Um dieses Projekt in die Tat umzusetzen, sind wir zu viert nach Berlin gereist, wo wir dann
+      mithilfe von Interviews, Expertegesprächen, Besuchen von Spätis, Videos und Fotos, Informationen rundum Spätis gesammelt haben. </p>
+
+      <p>All unser Wissen haben wir dann in Form von Texten, Videos Und Bildern auf dieser Webseite dargestellt.</p>
 		</ContentSection>
 
 		<ContentSection title="Danksagungen">
-			<p>Danke an alle Interviewpartner</p>
+			<p>Wir wollen uns bei allen bedanken, die uns beim Umsetzen dieses Projektes geholfen haben.
+        Dazu gehören: Das DDR-Museum Berlin und dem Herrn Dr. Wolle,
+        Kaan Mirzanl, dem Besit-zer des Spätify-Späti in Kreuzberg,
+        dem Kiez Kiosk Alt-Moabit sowie den zahlreichen den Späti-Besitzern,
+        Einwohnern und Touristen Berlins,
+        die sich Zeit für unsere Fragen und Ge-spräche genommen haben. </p>
 		</ContentSection>
 	</PageContainer>
 </template>
