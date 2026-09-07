@@ -139,8 +139,8 @@ import InfoBox from '@/components/InfoBox.vue';
           <p>Da Spätis ihre laufenden Kosten – insbesondere Miete, Personal, Energie, Wareneinsatz und Steuern – decken müssen,
             Aussagen, wonach sämtliche Produkte grundsätzlich mit einem Gewinnaufschlag von 100 Prozent verkauft werden müssten,
             lassen sich jedoch wissenschaftlich nicht belegen und hängen stark vom jeweiligen Produkt sowie vom Geschäftsmodell des Betriebs ab.
+            sind sie auf ausreichende Gewinnmargen angewiesen.
           </p>
-          sind sie auf ausreichende Gewinnmargen angewiesen.
         </template>
       </SplitSection>
     </ContentSection>
