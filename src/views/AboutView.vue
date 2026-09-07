@@ -11,9 +11,15 @@ import ContentSection from '@/components/ContentSection.vue';
 	             scroll-target="#about-content"/>
 	<PageContainer id="about-content">
 		<ContentSection title="Das Projekt">
-			<p>Welche Rolle spielen Spätis als Geschäftsmodell, sozialer Treffpunkt und Bestandteil des Berliner Nachtlebens?</p>
+			<p>Wir sind eine Gruppe Lernender in Informatik und Automation.
+        Zusammenen haben wir ein halbes Jahr lang an diesem Projekt für unsere Interdisziplinäre Projektarbeit gearbeitet.
+        Viele aus dem Team waren schon in Berlin und waren von den einzigartigen "Spätis" erstaunt. Zusammen haben
+        wir uns für diese Leitfrage des Projekts entschieden:
+      </p>
 
-      <p>Mit unserem Projekt wollten wir genau das anschauen und das Konzept als gnzes mit der Schweiz,
+      <p>Welche Rolle spielen Spätis als Geschäftsmodell, sozialer Treffpunkt und Bestandteil des Berliner Nachtlebens?</p>
+
+      <p>Mit unserem Projekt wollten wir genau das anschauen und das Konzept als Ganzes mit der Schweiz,
         unserem Heimatland, vetgleichen. Wir können mit voller Überzaugung sagen:</p>
 
       <p>Spätis sind mehr als nur Verkaufsstellen; sie sind ein erfolgreiches,
@@ -23,7 +29,7 @@ import ContentSection from '@/components/ContentSection.vue';
 
 		<ContentSection title="Vorgehen">
 			<p>Um dieses Projekt in die Tat umzusetzen, sind wir zu viert nach Berlin gereist, wo wir dann
-      mithilfe von Interviews, Expertegesprächen, Besuchen von Spätis, Videos und Fotos, Informationen rundum Spätis gesammelt haben. </p>
+      mithilfe von Interviews, Expertegesprächen, Besuchen in Spätis, Videos und Fotos, Informationen rundum Spätis gesammelt haben. </p>
 
       <p>All unser Wissen haben wir dann in Form von Texten, Videos Und Bildern auf dieser Webseite dargestellt.</p>
 		</ContentSection>
