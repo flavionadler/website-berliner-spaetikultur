@@ -6,6 +6,8 @@ import ContentSection from '@/components/ContentSection.vue';
 import SplitSection from '@/components/SplitSection.vue';
 import QuoteBlock from '@/components/QuoteBlock.vue';
 import YoutubeVideo from '@/components/YoutubeVideo.vue';
+import FlipCard from '@/components/FlipCard.vue';
+import {RouteNames} from '@/constants/enums.ts';
 </script>
 
 <template>
@@ -53,7 +55,19 @@ import YoutubeVideo from '@/components/YoutubeVideo.vue';
           </div>
 				</template>
 				<template #right>
-					<YoutubeVideo video-id="K154mBJk0EM"/>
+					<FlipCard>
+						<template #front>
+							<div class="flex flex-col items-center gap-4">
+								<h2 class="text-3xl font-bold tracking-tight text-white text-center">
+									Was sagen Kunden zu Spätis in Berlin?
+								</h2>
+							</div>
+						</template>
+
+						<template #back>
+							<YoutubeVideo video-id="K154mBJk0EM"/>
+						</template>
+					</FlipCard>
 				</template>
 			</SplitSection>
       <p>
@@ -79,6 +93,7 @@ import YoutubeVideo from '@/components/YoutubeVideo.vue';
         Diese erfüllen jedoch in erster Linie eine Nahversorgungsfunktion
         und besitzen nicht dieselbe soziale und kulturelle Bedeutung wie ein Berliner Späti.
         Zudem zeigen Umfragen in der Schweiz, dass ein vergleichbares Konzept von der Bevölkerung derzeit kaum als notwendig erachtet wird.
+        <RouterLink class="text-yellow-500" :to="{ name: RouteNames.switzerland }">Mehr zu Spätis in der Schweiz</RouterLink>
       </p>
       <QuoteBlock
           quote="Wer nachts einsam ist, kann sich da ein bisschen hinsetzen. Das ist ja die soziale Funktion. Das ist eigentlich sehr gut, dass es sowas gibt."

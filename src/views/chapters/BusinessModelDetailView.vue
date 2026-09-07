@@ -7,12 +7,15 @@ import ContentSection from '@/components/ContentSection.vue';
 import SplitSection from '@/components/SplitSection.vue';
 import YoutubeVideo from '@/components/YoutubeVideo.vue';
 import InfoBox from '@/components/InfoBox.vue';
+import {RouteNames} from '@/constants/enums.ts';
+import FlipCard from '@/components/FlipCard.vue';
 </script>
 
 <template>
 	<HeroSection :image="heroImg" title="Geschäftsmodell" eyebrow="Mehr als nur ein Kiosk"
 	             description="Erfahren Sie, wie Berliner Spätis wirtschaftlich funktionieren und weshalb lange
-	             Öffnungszeiten, ein gezieltes Sortiment und die Nähe zur Nachbarschaft ihren Erfolg ausmachen."
+	             Öffnungszeiten, ein gezieltes Sortiment und die Nähe zur Nachbarschaft ihren Erfolg ausmachen.
+	             Erfahren Sie auch etwas, über die Unterschiede zur Schweiz!"
 	             scroll-target="#business-model-content" />
 	<PageContainer id="business-model-content">
 		<ContentSection>
@@ -44,18 +47,11 @@ import InfoBox from '@/components/InfoBox.vue';
 				Bier- und Alkoholsortiment."
 				author="Kaan Mirzanli"
 				source="Besitzer vom Späti 'Spätify' in Kreuzberg" />
-			<SplitSection>
-				<template #left>
-					<p>
-						Viele Betreiber passen ihr Angebot zudem an die Lage ihres Geschäfts und die Bedürfnisse ihrer
-						Kundschaft an. Ein Späti in einem ruhigen Wohnquartier erfüllt eine andere Funktion als einer in
-						unmittelbarer Nähe von Bars, Clubs oder touristischen Orten.
-					</p>
-				</template>
-				<template #right>
-					<YoutubeVideo video-id="dQw4w9WgXcQ"/>
-				</template>
-			</SplitSection>
+			<p>
+				Viele Betreiber passen ihr Angebot zudem an die Lage ihres Geschäfts und die Bedürfnisse ihrer
+				Kundschaft an. Ein Späti in einem ruhigen Wohnquartier erfüllt eine andere Funktion als einer in
+				unmittelbarer Nähe von Bars, Clubs oder touristischen Orten.
+			</p>
 		</ContentSection>
 
 		<ContentSection title="Preisgestaltung: Das Faktor-Model">
@@ -64,12 +60,24 @@ import InfoBox from '@/components/InfoBox.vue';
 				Faktor-Modell. Dabei wird der Einkaufspreis eines Produkts, den die Spätis beim Grosshändler zahlen, mit
 				einem festen Faktor multipliziert, der die Betriebskosten für Miete, Strom und Personal deckt:
 			</p>
-			<QuoteBlock
-				quote="Normalerweise arbeiten die meisten Spätis mit einem Faktor von zwei: Kauft man ein Bier für einen
-				Euro inklusive Mehrwertsteuer ein, verkauft man es für zwei Euro. Bei uns, wo die Miete grösser ist,
-				liegt der Faktor bei einigen Produkten auch bei bis zu 2.5."
-				author="Kaan Mirzanli"
-				source="Besitzer vom Späti 'Spätify' in Kreuzberg" />
+			<div class="flex justify-center">
+				<FlipCard class="w-full max-w-md">
+					<template #front>
+						<div class="flex flex-col items-center gap-4">
+							<h2 class="text-3xl font-bold tracking-tight text-white">
+								Wie setzen Spätis die Preise für ihre Produkte?
+							</h2>
+
+							<p class="text-lg text-zinc-400">
+								Beantwortet von Kaan Mirzanli - Späti-Besitzer
+							</p>
+						</div>
+					</template>
+					<template #back>
+						<YoutubeVideo video-id="VVGEI21xOeU"/>
+					</template>
+				</FlipCard>
+			</div>
 			<p>
 				Dieses Modell erklärt, weshalb Spätis im Vergleich zu grossen Supermarktketten meist höhere Preise
 				verlangen. Viele Kundinnen und Kunden nehmen diesen Umstand aufgrund der langen Öffnungszeiten und der
@@ -108,27 +116,105 @@ import InfoBox from '@/components/InfoBox.vue';
 					</p>
 				</template>
 				<template #right>
-					<YoutubeVideo video-id="ruOoPMOsTZ4"/>
+					<FlipCard>
+						<template #front>
+							<div class="flex flex-col items-center gap-4">
+								<h2 class="text-3xl font-bold tracking-tight text-white">
+									Lohnt es sich für Spätis, in der Nacht so lange offen zu haben?
+								</h2>
+
+								<p class="text-lg text-zinc-400">
+									Beantwortet von Kaan Mirzanli - Späti-Besitzer
+								</p>
+							</div>
+						</template>
+						<template #back>
+							<YoutubeVideo video-id="O393BqebQ-4"/>
+						</template>
+					</FlipCard>
 				</template>
 			</SplitSection>
 		</ContentSection>
 
+		<ContentSection title="Individuelle Konzepte und Besonderheiten">
+			<p>
+				Auch wenn viele Spätis auf den ersten Blick basierend auf Öffnungszeiten und Sortiment ähnlich wirken,
+				entwickeln einzelne Betreiberinnen und Betreiber oft eigene, teils überraschende Ideen, mit denen sie
+				sich von anderen abheben. In manchen Spätis läuft beispielsweise durchgehend Musik, was zur Atmosphäre
+				beiträgt und bei der Kundschaft gut ankommt.
+			</p>
+
+			<p>
+				Einige Spätis organisieren Partys, Raves oder sonstige Events. Andere spezialisieren sich auf ein spezielles
+				Sortiment, welches sie von den anderen Spätis abhebt. Beispiele dafür wären Head-Shops, Backwarenabteilungen,
+				oder Bücher.
+			</p>
+
+			<InfoBox title="Beispiele">
+				<ul class="list-disc pl-10">
+					<li>
+						Der "Späti 68" in Prenzlauer Berg mit eigenem Tischtennis-Tisch und vielen Sitzmöglichkeit, wird
+						zum Treffpunkt des Kiez
+					</li>
+					<li>
+						Ein Späti in Wedding namens "Späti's Backshop", der nicht nur das übliche Sortiment verkauft,
+						sondern auch frische Backwaren
+					</li>
+					<li>"Späti und Blumen" verkauft neben dem üblichen Sortiment auch Blumen und Pflanzen.</li>
+					<li>
+						Der «Anzen»-Späti in Neukölln verwandelt sich einmal im Monat in einen improvisierten Club mit
+						Rave-Abenden
+					</li>
+					<li>
+						Der «Motzki» in Berlin-Schöneberg gilt fast schon als vornehmer Späti: Neben Sitzplätzen drinnen
+						und draussen gibt es dort auch Wein glasweise, nicht nur Bier und Tabak
+					</li>
+					<li>
+						Der Spätkauf an der Choriner Strasse in Prenzlauer Berg verkauft neben dem klassischen
+						Sortiment auch Backwaren und Wein und ist für sein nostalgisches, urig-charmantes Ambiente bekannt
+					</li>
+				</ul>
+			</InfoBox>
+
+			<p>
+				Solche Nischenkonzepte zeigen, dass der Späti als Geschäftsmodell viel Raum für Individualität lässt:
+				Solange die Grundfunktion erhalten bleibt, können Betreiberinnen und Betreiber frei entscheiden, mit
+				welchen zusätzlichen Ideen sie sich von der Konkurrenz abheben.
+			</p>
+		</ContentSection>
+
 		<ContentSection title="Herausforderung der Selbstständigkeit">
-			<p>
-				Einen Späti zu betreiben, bedeutet für die meisten Inhaberinnen und Inhaber, selbstständig zu sein – mit
-				allem, was dazugehört:
-			</p>
-			<QuoteBlock
-				quote="Wenn du einen Späti hast, bist du selbstständig – und wie das Wort sagt: selbst und ständig. Auch
-				an einem freien Tag sitzt man nicht einfach zu Hause: Man behält die Kameras im Blick, vergleicht
-				Angebote bei verschiedenen Grossmärkten und organisiert den Nachschub."
-				author="Kaan Mirzanli"
-				source="Besitzer vom Späti 'Spätify' in Kreuzberg" />
-			<p>
-				Dazu gehört die laufende Beobachtung von Aktionen grosser Ketten wie Kaufland oder Rewe, um Waren
-				möglichst günstig einzukaufen, ebenso wie die Koordination eines Teams, das im Schichtbetrieb rund um
-				die Uhr im Einsatz ist.
-			</p>
+			<SplitSection>
+				<template #left>
+					<FlipCard>
+						<template #front>
+							<div class="flex flex-col items-center gap-4">
+								<h2 class="text-3xl font-bold tracking-tight text-white">
+									Welche Herausforderung hat man als Späti-Besitzer?
+								</h2>
+
+								<p class="text-lg text-zinc-400">
+									Beantwortet von Kaan Mirzanli - Späti-Besitzer
+								</p>
+							</div>
+						</template>
+						<template #back>
+							<YoutubeVideo video-id="c0bINJhwzs8"/>
+						</template>
+					</FlipCard>
+				</template>
+				<template #right>
+					<p>
+						Einen Späti zu betreiben, bedeutet für die meisten Inhaberinnen und Inhaber, selbstständig zu sein – mit
+						allem, was dazugehört:
+					</p>
+					<p>
+						Dazu gehört die laufende Beobachtung von Aktionen grosser Ketten wie Kaufland oder Rewe, um Waren
+						möglichst günstig einzukaufen, ebenso wie die Koordination eines Teams, das im Schichtbetrieb rund um
+						die Uhr im Einsatz ist.
+					</p>
+				</template>
+			</SplitSection>
 		</ContentSection>
 
 		<ContentSection title="Mehr als nur ein Geschäft">
@@ -145,25 +231,26 @@ import InfoBox from '@/components/InfoBox.vue';
 				author="Kaan Mirzanli"
 				source="Besitzer vom Späti 'Spätify' in Kreuzberg"
 			/>
-			<SplitSection>
-				<template #left>
-					<div>
-						<p>
-							Selbst unter den Betreibern herrscht trotz wachsender Konkurrenz oft mehr Zusammenhalt als
-							Rivalität: Man hilft sich mit fehlenden Produkten aus oder übernimmt gute Ideen voneinander.
-						</p>
-						<p>
-							Ob Kulanz gegenüber Stammkunden, Treffpunkt vor dem Ausgehen oder Zusammenhalt unter den
-							Betreibern: Gerade diese Verbindung von wirtschaftlichem Erfolg und gesellschaftlicher Bedeutung
-							macht das Berliner Späti-Konzept einzigartig und unterscheidet es von klassischen Kiosken oder
-							Convenience Stores in vielen anderen Städten.
-						</p>
-					</div>
-				</template>
-				<template #right>
-					<YoutubeVideo video-id="QS_KHU5yzW4"/>
-				</template>
-			</SplitSection>
+
+			<p>
+				Selbst unter den Betreibern herrscht trotz wachsender Konkurrenz oft mehr Zusammenhalt als Rivalität:
+				Man hilft sich mit fehlenden Produkten aus oder übernimmt gute Ideen voneinander.
+			</p>
+			<p>
+				Ob Kulanz gegenüber Stammkunden, Treffpunkt vor dem Ausgehen oder Zusammenhalt unter den Betreibern:
+				Gerade diese Verbindung von wirtschaftlichem Erfolg und gesellschaftlicher Bedeutung macht das Berliner
+				Späti-Konzept einzigartig und unterscheidet es von klassischen Kiosken oder Convenience Stores in vielen
+				anderen Städten.
+			</p>
+		</ContentSection>
+
+		<ContentSection title="Fazit">
+			<p>
+				Ob für ein schnelles Getränk, den Einkauf spät in der Nacht oder ein kurzes Gespräch mit der
+				Nachbarschaft: Der Späti ist in Berlin längst mehr als nur ein Laden. Doch gibt es ein vergleichbares
+				Konzept auch in der Schweiz? Erfahren Sie in diesem Kapitel mehr dazu:
+				<RouterLink class="text-yellow-500" :to="{ name: RouteNames.switzerland }">Vergleich zur Schweiz</RouterLink>
+			</p>
 		</ContentSection>
 	</PageContainer>
 </template>
