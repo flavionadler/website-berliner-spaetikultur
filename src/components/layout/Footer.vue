@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import {RouteNames} from '@/constants/enums.ts';
+import logo from '@/assets/images/spaetis-berlin_logo.png';
 </script>
 
 <template>
@@ -8,14 +9,13 @@ import {RouteNames} from '@/constants/enums.ts';
 			class="mx-auto flex max-w-7xl flex-col gap-10 px-6 py-12 lg:flex-row lg:items-start lg:justify-between">
 
 			<div class="text-center lg:text-left">
-				<h3 class="text-2xl font-bold text-white">
-					Berliner Spätis
-				</h3>
+				<img :src="logo" alt="Berliner Spätis" class="mx-auto h-20 w-auto lg:mx-0"/>
 
-				<p class="mt-3 max-w-md text-sm leading-7 text-zinc-400 lg:text-base">
-					IDPA-Projekt über die Berliner Späti-Kultur.
-				</p>
+				<RouterLink class="mt-3 inline-block max-w-md text-sm leading-7 text-zinc-400 underline lg:text-base" :to="{ name: RouteNames.about }">
+					Erfahren Sie mehr!
+				</RouterLink>
 			</div>
+
 
 			<nav
 				class="flex flex-col items-center gap-3 text-sm text-zinc-400 lg:items-end lg:text-base">

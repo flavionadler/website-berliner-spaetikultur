@@ -42,21 +42,17 @@ const chapters = [
 
 <template>
 	<HeroSection :image="heroImg" eyebrow="IDPA-Projekt" title="Spätis in Berlin"
-	             subtitle="Ein Stück Alltagskultur"
-	             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-	             scroll-target="#home-content"/>
+	             subtitle="Ein Stück Alltagskultur" scroll-target="#home-content"/>
 	<PageContainer id="home-content">
 		<ContentSection>
 			<p>
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-				dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-				clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-				consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-				sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-				takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-				sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-				eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-				ipsum dolor sit amet.
+				Ein Späti – kurz für Spätkauf – ist weit mehr als ein kleiner Laden an der nächsten Strassenecke.
+				Getränke, Snacks und Dinge des täglichen Bedarfs gibt es hier oft bis spät in die Nacht. Gleichzeitig
+				sind Spätis Treffpunkt, Versorger und ein fester Bestandteil des Berliner Kiezlebens.
+			</p>
+			<p>
+				Doch woher kommt diese besondere Kultur? Und was macht einen Späti eigentlich so besonders? Auf dieser
+				Website werfen wir einen Blick hinter die Kulissen.
 			</p>
 		</ContentSection>
 		<div class="flex flex-col gap-12 p-6">
