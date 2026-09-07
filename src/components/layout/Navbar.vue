@@ -76,6 +76,11 @@ onUnmounted(() => {
 					class="text-zinc-100 drop-shadow-lg hover:text-yellow-400 transition">
 					Kritik
 				</RouterLink>
+
+				<RouterLink :to="{ name: RouteNames.switzerland }"
+					class="text-zinc-100 drop-shadow-lg hover:text-yellow-400 transition">
+					Schweiz
+				</RouterLink>
 			</nav>
 
 			<button type="button"
@@ -134,6 +139,13 @@ onUnmounted(() => {
 						class="group text-4xl font-black tracking-tight text-white transition hover:text-yellow-400"
 						@click="closeMobileMenu">
 						Kritik
+						<span class="mt-2 block h-0.5 w-0 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
+					</RouterLink>
+
+					<RouterLink :to="{ name: RouteNames.switzerland }"
+						class="group text-4xl font-black tracking-tight text-white transition hover:text-yellow-400"
+						@click="closeMobileMenu">
+						Schweiz
 						<span class="mt-2 block h-0.5 w-0 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
 					</RouterLink>
 				</nav>

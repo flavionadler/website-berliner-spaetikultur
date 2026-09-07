@@ -7,6 +7,7 @@ import businessModelImg from '@/assets/images/hero/business-model.jpeg'
 import historyImg from '@/assets/images/hero/history.jpg'
 import cultureImg from '@/assets/images/hero/culture.jpeg'
 import criticismImg from '@/assets/images/hero/criticism.jpg'
+import switzerlandImg from '@/assets/images/hero/titlepicture_ch.jpg'
 import ContentSection from '@/components/ContentSection.vue';
 import PageContainer from '@/components/PageContainer.vue';
 
@@ -35,6 +36,12 @@ const chapters = [
 		description: 'Zwischen Nachbarschaft, Lärm und gesetzlichen Vorschriften.',
 		image: criticismImg,
 		to: RouteNames.criticism,
+	},
+	{
+		title: 'Schweiz',
+		description: 'Wie unterscheidet sich die Spätikultur von vergleichbaren Angeboten in der Schweiz?',
+		image: switzerlandImg,
+		to: RouteNames.switzerland,
 	},
 ]
 </script>
