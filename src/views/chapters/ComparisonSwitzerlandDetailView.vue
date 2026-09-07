@@ -1,8 +1,9 @@
 <script setup lang="ts">
 
 import heroImg from '@/assets/images/hero/titlepicture_ch.jpg';
-import cantonAgImg from '@/assets/images/chapters/comparison-to-switzerland/canton_ag.png';
+import cantonAgImg from '@/assets/images/chapters/comparison-to-switzerland/Kanton_Aargau_auf_der_Schweizer_Karte.png';
 import voteImg from '@/assets/images/chapters/comparison-to-switzerland/vote.png';
+import migrolinoImg from '@/assets/images/chapters/comparison-to-switzerland/Migrolino.jpeg';
 import HeroSection from '@/components/HeroSection.vue';
 import PageContainer from '@/components/PageContainer.vue';
 import ContentSection from '@/components/ContentSection.vue';
@@ -44,15 +45,32 @@ import FlipCard from '@/components/FlipCard.vue';
 					</p>
 				</template>
 				<template #right>
-					<img :src="cantonAgImg" alt="Kanton Aargau auf der Schweizer Karte"/>
+          <img
+              :src="cantonAgImg"
+              alt="Kanton Aargau auf der Schweizer Karte"
+              class="w-full rounded-2xl shadow-xl"
+          />
 					<p>Kanton Aargau mit lockeren Konditionen für Ladenöffnungszeiten.</p>
 				</template>
 			</SplitSection>
-			<p>
-				Ein ähnliches Konzept zeigt sich zurzeit vor allem bei Migrolino oder Coop Pronto. Sie besitzen ein ähnliches
-				Sortiment. Jedoch gilt für beide die Kantonalen Richtlinien. Ausserdem gehören sie zu einer Kette und sind
-				lediglich ein Tochterkonzept von der Migros, wie vom Coop. Spätis im Vergleich sind eigenständige Läden.
-			</p>
+      <SplitSection align="center">
+        <template #left>
+          <img
+              :src="migrolinoImg"
+              alt="Migrolino als Beispiel eines Schweizer Convenience-Shops"
+              class="w-full rounded-2xl object-cover shadow-xl"
+          />
+        </template>
+
+        <template #right>
+          <p>
+            Ein ähnliches Konzept zeigt sich zurzeit vor allem bei Migrolino oder Coop Pronto.
+            Sie besitzen ein ähnliches Sortiment. Jedoch gilt für beide die Kantonalen Richtlinien.
+            Ausserdem gehören sie zu einer Kette und sind lediglich ein Tochterkonzept von der
+            Migros, wie vom Coop. Spätis im Vergleich sind eigenständige Läden.
+          </p>
+        </template>
+      </SplitSection>
 			<p>
 				Die Migros hält jedoch mit einem ganz anderen Konzept mit. Sie entwickelten das Konzept Migros teo. Hier sind
 				keine Verkäufer vor Ort. Es ist lediglich ein Team von zwei Leuten involviert, welche die Verantwortung
