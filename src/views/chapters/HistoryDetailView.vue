@@ -120,7 +120,22 @@ const timeline = [
 					</p>
 				</template>
 				<template #right>
-					<YoutubeVideo video-id="PNMnjKPPbeI"/>
+          <FlipCard>
+            <template #front>
+              <div class="flex flex-col items-center gap-4">
+                <h2 class="text-3xl font-bold tracking-tight text-white">
+                  Was war der Einfluss der Spätis auf das soziale Leben in der DDR?
+                </h2>
+
+                <p class="text-lg text-zinc-400">
+                  Beantwortet von Herrn Dr. Stefan Wolle
+                </p>
+              </div>
+            </template>
+            <template #back>
+              <YoutubeVideo video-id="KCNKnL_a9SY"/>
+            </template>
+          </FlipCard>
 				</template>
 			</SplitSection>
 			<SplitSection>
