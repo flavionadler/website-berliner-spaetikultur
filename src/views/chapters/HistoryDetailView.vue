@@ -1,9 +1,9 @@
 <script setup lang="ts">
 
 import HeroSection from '@/components/HeroSection.vue';
-import heroImg from '@/assets/images/hero/history.jpg'; /* TODO: Other hero image */
+import heroImg from '@/assets/images/hero/history.jpg';
 import firstSpaeti from '@/assets/images/chapters/history/firstSpaeti.jpg';
-import spaetisBeginning from '@/assets/images/chapters/history/spaetisBeginning.jpg';
+import spaetisBeginning from '@/assets/images/chapters/history/frau.jpg';
 import reunification from '@/assets/images/chapters/history/reunification.jpg';
 import internetcafe from '@/assets/images/chapters/history/internetcafe.jpg';
 import PageContainer from '@/components/PageContainer.vue';
