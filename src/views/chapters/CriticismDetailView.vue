@@ -6,7 +6,7 @@ import PageContainer from "@/components/PageContainer.vue";
 import ContentSection from "@/components/ContentSection.vue";
 import SplitSection from '@/components/SplitSection.vue';
 import QuoteBlock from '@/components/QuoteBlock.vue';
-import trashImg from '@/assets/images/criticism/spaeti-muell-flaschen.jpg';
+import trashImg from '@/assets/images/chapters/criticism/spaeti-muell-flaschen.jpg';
 import YoutubeVideo from "@/components/YoutubeVideo.vue";
 import FlipCard from '@/components/FlipCard.vue';
 import InfoBox from '@/components/InfoBox.vue';
