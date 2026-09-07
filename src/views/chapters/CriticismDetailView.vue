@@ -8,6 +8,7 @@ import SplitSection from '@/components/SplitSection.vue';
 import QuoteBlock from '@/components/QuoteBlock.vue';
 import trashImg from '@/assets/images/criticism/spaeti-muell-flaschen.jpg';
 import YoutubeVideo from "@/components/YoutubeVideo.vue";
+import FlipCard from '@/components/FlipCard.vue';
 </script>
 
 <template>
@@ -38,23 +39,14 @@ import YoutubeVideo from "@/components/YoutubeVideo.vue";
         Gemäss <a href="https://gesetze.berlin.de/perma?j=L%C3%96G_BE_!_3" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">§ 3 BerlLadÖffG</a> dürfen Verkaufsstellen in Berlin von Montag bis Samstag grundsätzlich ohne zeitliche Begrenzung geöffnet sein.
         An Sonn- und gesetzlichen Feiertagen müssen Einzelhandelsgeschäfte hingegen gemäss <a href="https://gesetze.berlin.de/bsbe/?docId=jlr-NNLBE00004B5FNN00000000012&amp;query=JURISLINK%3A%22L%C3%96G+BE+%C2%A7+4%22" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">§ 4 BerlLadÖffG</a> grundsätzlich geschlossen bleiben.
 			</p>
-			<SplitSection>
-				<template #left>
-					<p>
-						Viele Berliner Spätis betreiben zusätzlich einen gastronomischen Betrieb und gelten damit als sogenannte Mischbetriebe.
-            Die rechtliche Grundlage hierfür bilden das <a href="https://www.gesetze-im-internet.de/gastg/" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">Gaststättengesetz (GastG)</a> sowie die hierzu ergangene Rechtsprechung.
-            Das Verwaltungsgericht Berlin (<a href="https://gesetze.berlin.de/perma?d=NJRE001398332" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">Beschluss vom 23. August 2019, Az. VG 4 L 216.19</a>) stellte klar,
-            dass ein Betrieb gleichzeitig Einzelhandel und Gaststätte sein kann.
-            Während der Einzelhandel an Sonn- und Feiertagen grundsätzlich geschlossen bleiben muss,
-            darf der Gaststättenbetrieb weiterhin Speisen und Getränke zum unmittelbaren Verzehr anbieten.
-					</p>
-				</template>
-				<template #right>
-					<div class="flex aspect-video w-full items-center justify-center rounded-2xl bg-zinc-900 text-zinc-400 shadow-xl">
-						Bild-Platzhalter
-					</div>
-				</template>
-			</SplitSection>
+      <p>
+        Viele Berliner Spätis betreiben zusätzlich einen gastronomischen Betrieb und gelten damit als sogenannte Mischbetriebe.
+        Die rechtliche Grundlage hierfür bilden das <a href="https://www.gesetze-im-internet.de/gastg/" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">Gaststättengesetz (GastG)</a> sowie die hierzu ergangene Rechtsprechung.
+        Das Verwaltungsgericht Berlin (<a href="https://gesetze.berlin.de/perma?d=NJRE001398332" target="_blank" rel="noopener noreferrer" class="text-yellow-500 underline underline-offset-4 transition hover:text-yellow-300">Beschluss vom 23. August 2019, Az. VG 4 L 216.19</a>) stellte klar,
+        dass ein Betrieb gleichzeitig Einzelhandel und Gaststätte sein kann.
+        Während der Einzelhandel an Sonn- und Feiertagen grundsätzlich geschlossen bleiben muss,
+        darf der Gaststättenbetrieb weiterhin Speisen und Getränke zum unmittelbaren Verzehr anbieten.
+      </p>
       <p>
         Dies wird häufig als sogenannter Gassenschank bezeichnet.
         Produkte, die typischerweise nicht zum sofortigen Verzehr bestimmt sind – beispielsweise Zigaretten,
@@ -108,7 +100,18 @@ import YoutubeVideo from "@/components/YoutubeVideo.vue";
 					</p>
 				</template>
 				<template #right>
-          <YoutubeVideo video-id="x-kQ7T_b6AA"/>
+          <FlipCard>
+            <template #front>
+              <div class="flex flex-col items-center gap-4">
+                <h2 class="text-3xl font-bold tracking-tight text-white text-center">
+                  Inwiefern hat sich die Rolle der Spätis verändert?
+                </h2>
+              </div>
+            </template>
+            <template #back>
+              <YoutubeVideo video-id="x-kQ7T_b6AA"/>
+            </template>
+          </FlipCard>
 				</template>
       </SplitSection>
       <QuoteBlock
