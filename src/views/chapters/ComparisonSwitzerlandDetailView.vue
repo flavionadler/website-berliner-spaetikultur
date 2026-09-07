@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import heroImg from '@/assets/images/hero/business-model.jpeg';
+import heroImg from '@/assets/images/hero/titlepicture_ch.jpg';
 import cantonAgImg from '@/assets/images/chapters/comparison-to-switzerland/canton_ag.png';
 import voteImg from '@/assets/images/chapters/comparison-to-switzerland/vote.png';
 import HeroSection from '@/components/HeroSection.vue';
@@ -34,7 +34,7 @@ import FlipCard from '@/components/FlipCard.vue';
 					<p>
 						Für einen möglichen Schweizer Späti würde das bedeuten, dass man das Konzept im Kanton Aargau
 						deutlich einfacher einführen könnte, wie in anderen Kantonen, da sie je nach Kanton deutlich
-						stärker eingeschränkt wären.</br>
+						stärker eingeschränkt wären.<br>
 						Mehr zu den Schweizer Ladenöffnungsgesetzen können Sie hier erfahren:
 						<a
 							href="https://www.parlament.ch/de/services/news/Seiten/2026/20260609111905814194158159026_bsd062.aspx?"
