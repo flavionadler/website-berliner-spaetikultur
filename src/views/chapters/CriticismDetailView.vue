@@ -9,6 +9,7 @@ import QuoteBlock from '@/components/QuoteBlock.vue';
 import trashImg from '@/assets/images/criticism/spaeti-muell-flaschen.jpg';
 import YoutubeVideo from "@/components/YoutubeVideo.vue";
 import FlipCard from '@/components/FlipCard.vue';
+import InfoBox from '@/components/InfoBox.vue';
 </script>
 
 <template>
@@ -117,12 +118,31 @@ import FlipCard from '@/components/FlipCard.vue';
       <QuoteBlock
           quote="Der Konkurrenzkampf ist für ältere Spätis weniger zu spüren. Vor allem neue Läden haben Schwierigkeiten. Jeder Späti hat seine eigenen Stammkunden."
           author="Arbeiter vom Kiez Kiosk Alt-Moabit, 06.05.2026" />
-
-      <p>Da Spätis ihre laufenden Kosten – insbesondere Miete, Personal, Energie, Wareneinsatz und Steuern – decken müssen,
-        sind sie auf ausreichende Gewinnmargen angewiesen.
-        Aussagen, wonach sämtliche Produkte grundsätzlich mit einem Gewinnaufschlag von 100 Prozent verkauft werden müssten,
-        lassen sich jedoch wissenschaftlich nicht belegen und hängen stark vom jeweiligen Produkt sowie vom Geschäftsmodell des Betriebs ab.
-      </p>
+      <SplitSection>
+      <template #left>
+        <InfoBox title="Interessant">
+          <blockquote>
+            <p>
+              „Ein Laden hier um die Ecke verkauft zum Beispiel Mushroom-Schokolade unter dem Tresen, soweit ich weiss.
+              Das wirft natürlich auch ein schlechtes Licht auf uns, wenn das herauskommt.“
+            </p>
+            <footer class="mt-4 text-sm text-zinc-400">
+              Arbeiter vom Kiez Kiosk Alt-Moabit, 06.05.2026
+              <p class="mt-2 text-xs text-zinc-500">
+                Aussage aus einem Interview; von uns nicht unabhängig verifiziert.
+              </p>
+            </footer>
+          </blockquote>
+        </InfoBox>
+      </template>
+        <template #right>
+          <p>Da Spätis ihre laufenden Kosten – insbesondere Miete, Personal, Energie, Wareneinsatz und Steuern – decken müssen,
+            Aussagen, wonach sämtliche Produkte grundsätzlich mit einem Gewinnaufschlag von 100 Prozent verkauft werden müssten,
+            lassen sich jedoch wissenschaftlich nicht belegen und hängen stark vom jeweiligen Produkt sowie vom Geschäftsmodell des Betriebs ab.
+          </p>
+          sind sie auf ausreichende Gewinnmargen angewiesen.
+        </template>
+      </SplitSection>
     </ContentSection>
 
 		<ContentSection title="Zusammenfassend">
