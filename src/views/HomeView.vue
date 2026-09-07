@@ -2,7 +2,6 @@
 import ChapterCard from '@/components/ChapterCard.vue';
 import HeroSection from '@/components/HeroSection.vue';
 import {RouteNames} from '@/constants/enums.ts';
-
 import heroImg from '@/assets/images/hero/home.jpeg'
 import businessModelImg from '@/assets/images/hero/business-model.jpeg'
 import historyImg from '@/assets/images/hero/history.jpg'
