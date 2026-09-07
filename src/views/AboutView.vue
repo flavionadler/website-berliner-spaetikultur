@@ -37,7 +37,7 @@ import ContentSection from '@/components/ContentSection.vue';
 		<ContentSection title="Danksagungen">
 			<p>Wir wollen uns bei allen bedanken, die uns beim Umsetzen dieses Projektes geholfen haben.
         Dazu gehören: Das DDR-Museum Berlin und dem Herrn Dr. Wolle,
-        Kaan Mirzanl, dem Besit-zer des Spätify-Späti in Kreuzberg,
+        Kaan Mirzanl, dem Besitzer des Spätify-Späti in Kreuzberg,
         dem Kiez Kiosk Alt-Moabit sowie den zahlreichen den Späti-Besitzern,
         Einwohnern und Touristen Berlins,
         die sich Zeit für unsere Fragen und Gespräche genommen haben. </p>
