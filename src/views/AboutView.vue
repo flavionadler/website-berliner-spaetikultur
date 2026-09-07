@@ -40,7 +40,7 @@ import ContentSection from '@/components/ContentSection.vue';
         Kaan Mirzanl, dem Besit-zer des Spätify-Späti in Kreuzberg,
         dem Kiez Kiosk Alt-Moabit sowie den zahlreichen den Späti-Besitzern,
         Einwohnern und Touristen Berlins,
-        die sich Zeit für unsere Fragen und Ge-spräche genommen haben. </p>
+        die sich Zeit für unsere Fragen und Gespräche genommen haben. </p>
 		</ContentSection>
 	</PageContainer>
 </template>
